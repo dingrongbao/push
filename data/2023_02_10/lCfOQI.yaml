@@ -35,6 +35,7 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
       - UCLOUD_HKPRO
+      - GG_HKPRO
       - 深新
       - 京德
       - hkpro
@@ -47,6 +48,7 @@ proxy-groups:
     tolerance: 10
     proxies:
       - UCLOUD_HKPRO
+      - GG_HKPRO
       - 深新
       - 京德
       - hkpro
@@ -59,6 +61,7 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - UCLOUD_HKPRO
+      - GG_HKPRO
       - 深新
       - 京德
       - hkpro
@@ -71,6 +74,7 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - UCLOUD_HKPRO
+      - GG_HKPRO
       - 深新
       - 京德
       - hkpro
@@ -83,6 +87,7 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - UCLOUD_HKPRO
+      - GG_HKPRO
       - 深新
       - 京德
       - hkpro
@@ -95,6 +100,7 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - UCLOUD_HKPRO
+      - GG_HKPRO
       - 深新
       - 京德
       - hkpro
@@ -107,6 +113,7 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - UCLOUD_HKPRO
+      - GG_HKPRO
       - 深新
       - 京德
       - hkpro
@@ -119,6 +126,7 @@ proxy-groups:
       - ♻️ 自动选择
       - 🚀 节点选择
       - UCLOUD_HKPRO
+      - GG_HKPRO
       - 深新
       - 京德
       - hkpro
@@ -131,6 +139,7 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - UCLOUD_HKPRO
+      - GG_HKPRO
       - 深新
       - 京德
       - hkpro
@@ -159,6 +168,7 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - UCLOUD_HKPRO
+      - GG_HKPRO
       - 深新
       - 京德
       - hkpro
