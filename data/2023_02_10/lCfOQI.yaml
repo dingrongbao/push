@@ -26,7 +26,7 @@ proxies:
   - {"name":"hkpro","type":"ss","server":"uchk-zf-77gd4.inkiwike.com","port":60005,"password":"FfoHE4vgvx","cipher":"aes-256-gcm"}
   - {"name":"wg_hkpro","type":"ss","server":"54dfg4fg5-hkzf2.tianziyu.com","port":60005,"password":"FfoHE4vgvx","cipher":"aes-256-gcm"}
   - {"name":"jp_hkpro","type":"ss","server":"fg8-alihrfd654fd5s-fsdfs.inkiwike.com","port":60005,"password":"FfoHE4vgvx","cipher":"aes-256-gcm"}
-  - {"name":"defaultName","type":"vless","server":"45.11.185.246.globalssh.cn","port":60008,"uuid":"c64d1eea-6f57-4a62-e1d2-918fc526defe","tls":false,"network":"tcp"}
+  - {"name":"defaultName","type":"trojan","server":"45.11.185.246.globalssh.cn","port":60008,"udp":true,"password":"KK2ueM3ceK","skip-cert-verify":true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
