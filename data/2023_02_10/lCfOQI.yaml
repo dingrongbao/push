@@ -21,7 +21,7 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"UCLOUD_HKPRO","type":"vless","server":"45.11.185.246","port":60008,"uuid":"4e5db723-5986-4792-a917-8caba4e6e3b6","tls":false,"network":"tcp"}
+  - {"name":"UCLOUD_HKPRO","type":"vless","server":"45.11.185.246.globalssh.cn","port":60008,"uuid":"4e5db723-5986-4792-a917-8caba4e6e3b6","tls":false,"network":"tcp"}
   - {"name":"深新","type":"ss","server":"ucsg555-dsf65.inkcdn.cc","port":60001,"password":"Zb9TRWw2gJoKeyLb","cipher":"aes-256-gcm"}
   - {"name":"京德","type":"ss","server":"bd-f85d-5eagtir0.tianziyu.com","port":60001,"password":"ZdNVMOMUlNwEP0CY","cipher":"aes-256-gcm"}
   - {"name":"hkpro","type":"ss","server":"uchk-zf-77gd4.inkiwike.com","port":60005,"password":"FfoHE4vgvx","cipher":"aes-256-gcm"}
