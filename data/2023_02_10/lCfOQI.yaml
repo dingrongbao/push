@@ -22,12 +22,12 @@ dns:
 
 proxies:
   - {"name":"UCLOUD_HKPRO","type":"vless","server":"45.11.185.246.globalssh.cn","port":60008,"uuid":"4e5db723-5986-4792-a917-8caba4e6e3b6","tls":false,"network":"tcp"}
-  - {"name":"GG_HKPRO","type":"vless","server":"uchk-zf-77gd4.inkiwike.com","port":60008,"uuid":"4e5db723-5986-4792-a917-8caba4e6e3b6","tls":false,"network":"tcp"}
   - {"name":"深新","type":"ss","server":"ucsg555-dsf65.inkcdn.cc","port":60001,"password":"Zb9TRWw2gJoKeyLb","cipher":"aes-256-gcm"}
   - {"name":"京德","type":"ss","server":"bd-f85d-5eagtir0.tianziyu.com","port":60001,"password":"ZdNVMOMUlNwEP0CY","cipher":"aes-256-gcm"}
   - {"name":"hkpro","type":"ss","server":"uchk-zf-77gd4.inkiwike.com","port":60005,"password":"FfoHE4vgvx","cipher":"aes-256-gcm"}
   - {"name":"wg_hkpro","type":"ss","server":"54dfg4fg5-hkzf2.tianziyu.com","port":60005,"password":"FfoHE4vgvx","cipher":"aes-256-gcm"}
   - {"name":"jp_hkpro","type":"ss","server":"fg8-alihrfd654fd5s-fsdfs.inkiwike.com","port":60005,"password":"FfoHE4vgvx","cipher":"aes-256-gcm"}
+  - {"name":"GG_HKPRO","type":"vless","server":"uchk-zf-77gd4.inkiwike.com","port":60008,"uuid":"4e5db723-5986-4792-a917-8caba4e6e3b6","tls":false,"network":"tcp"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -35,12 +35,12 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
       - UCLOUD_HKPRO
-      - GG_HKPRO
       - 深新
       - 京德
       - hkpro
       - wg_hkpro
       - jp_hkpro
+      - GG_HKPRO
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -48,12 +48,12 @@ proxy-groups:
     tolerance: 10
     proxies:
       - UCLOUD_HKPRO
-      - GG_HKPRO
       - 深新
       - 京德
       - hkpro
       - wg_hkpro
       - jp_hkpro
+      - GG_HKPRO
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -61,12 +61,12 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - UCLOUD_HKPRO
-      - GG_HKPRO
       - 深新
       - 京德
       - hkpro
       - wg_hkpro
       - jp_hkpro
+      - GG_HKPRO
   - name: 📲 电报信息
     type: select
     proxies:
@@ -74,12 +74,12 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - UCLOUD_HKPRO
-      - GG_HKPRO
       - 深新
       - 京德
       - hkpro
       - wg_hkpro
       - jp_hkpro
+      - GG_HKPRO
   - name: ⚔️ CHATGPTD地址
     type: select
     proxies:
@@ -87,12 +87,12 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - UCLOUD_HKPRO
-      - GG_HKPRO
       - 深新
       - 京德
       - hkpro
       - wg_hkpro
       - jp_hkpro
+      - GG_HKPRO
   - name: ✅ 自定义地址
     type: select
     proxies:
@@ -100,12 +100,12 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - UCLOUD_HKPRO
-      - GG_HKPRO
       - 深新
       - 京德
       - hkpro
       - wg_hkpro
       - jp_hkpro
+      - GG_HKPRO
   - name: ✅ 欧洲特需
     type: select
     proxies:
@@ -113,12 +113,12 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - UCLOUD_HKPRO
-      - GG_HKPRO
       - 深新
       - 京德
       - hkpro
       - wg_hkpro
       - jp_hkpro
+      - GG_HKPRO
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -126,12 +126,12 @@ proxy-groups:
       - ♻️ 自动选择
       - 🚀 节点选择
       - UCLOUD_HKPRO
-      - GG_HKPRO
       - 深新
       - 京德
       - hkpro
       - wg_hkpro
       - jp_hkpro
+      - GG_HKPRO
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -139,12 +139,12 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - UCLOUD_HKPRO
-      - GG_HKPRO
       - 深新
       - 京德
       - hkpro
       - wg_hkpro
       - jp_hkpro
+      - GG_HKPRO
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -168,12 +168,12 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - UCLOUD_HKPRO
-      - GG_HKPRO
       - 深新
       - 京德
       - hkpro
       - wg_hkpro
       - jp_hkpro
+      - GG_HKPRO
 
 rules:
   - DOMAIN-KEYWORD,tencentcloud.com,✅ 自定义地址
