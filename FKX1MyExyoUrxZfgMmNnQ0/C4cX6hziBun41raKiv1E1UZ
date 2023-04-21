@@ -21,10 +21,10 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"UCLOUD_HKPRO","type":"vless","server":"45.11.185.246.globalssh.cn","port":60008,"uuid":"4e5db723-5986-4792-a917-8caba4e6e3b6","tls":false,"network":"grpc"}
-  - {"name":"广港转发_HKPRO","type":"vless","server":"uchk-zf-77gd4.inkiwike.com","port":60008,"uuid":"4e5db723-5986-4792-a917-8caba4e6e3b6","tls":false,"network":"tcp"}
-  - {"name":"莞港转发_HKPRO","type":"vless","server":"54dfg4fg5-hkzf2.tianziyu.com","port":60008,"uuid":"4e5db723-5986-4792-a917-8caba4e6e3b6","tls":false,"network":"tcp"}
-  - {"name":"深新","type":"ss","server":"ucsg555-dsf65.inkcdn.cc","port":60001,"password":"Zb9TRWw2gJoKeyLb","cipher":"aes-256-gcm"}
+  - {"name":"UCLOUD_HKPRO\r","type":"vless","server":"45.11.185.246.globalssh.cn","port":60008,"uuid":"4e5db723-5986-4792-a917-8caba4e6e3b6","tls":false,"network":"tcp"}
+  - {"name":"广港转发_HKPRO\r","type":"vless","server":"uchk-zf-77gd4.inkiwike.com","port":60008,"uuid":"4e5db723-5986-4792-a917-8caba4e6e3b6","tls":false,"network":"tcp"}
+  - {"name":"莞港转发_HKPRO\r","type":"vless","server":"54dfg4fg5-hkzf2.tianziyu.com","port":60008,"uuid":"4e5db723-5986-4792-a917-8caba4e6e3b6","tls":false,"network":"tcp"}
+  - {"name":"深新\r","type":"ss","server":"ucsg555-dsf65.inkcdn.cc","port":60001,"password":"Zb9TRWw2gJoKeyLb","cipher":"aes-256-gcm"}
   - {"name":"京德","type":"ss","server":"bd-f85d-5eagtir0.tianziyu.com","port":60001,"password":"ZdNVMOMUlNwEP0CY","cipher":"aes-256-gcm"}
 proxy-groups:
   - name: 🚀 节点选择
@@ -32,10 +32,10 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - UCLOUD_HKPRO
-      - 广港转发_HKPRO
-      - 莞港转发_HKPRO
-      - 深新
+      - "UCLOUD_HKPRO\r"
+      - "广港转发_HKPRO\r"
+      - "莞港转发_HKPRO\r"
+      - "深新\r"
       - 京德
   - name: ♻️ 自动选择
     type: url-test
@@ -43,10 +43,10 @@ proxy-groups:
     interval: 30
     tolerance: 10
     proxies:
-      - UCLOUD_HKPRO
-      - 广港转发_HKPRO
-      - 莞港转发_HKPRO
-      - 深新
+      - "UCLOUD_HKPRO\r"
+      - "广港转发_HKPRO\r"
+      - "莞港转发_HKPRO\r"
+      - "深新\r"
       - 京德
   - name: 🌍 国外媒体
     type: select
@@ -54,10 +54,10 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - UCLOUD_HKPRO
-      - 广港转发_HKPRO
-      - 莞港转发_HKPRO
-      - 深新
+      - "UCLOUD_HKPRO\r"
+      - "广港转发_HKPRO\r"
+      - "莞港转发_HKPRO\r"
+      - "深新\r"
       - 京德
   - name: 📲 电报信息
     type: select
@@ -65,10 +65,10 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - UCLOUD_HKPRO
-      - 广港转发_HKPRO
-      - 莞港转发_HKPRO
-      - 深新
+      - "UCLOUD_HKPRO\r"
+      - "广港转发_HKPRO\r"
+      - "莞港转发_HKPRO\r"
+      - "深新\r"
       - 京德
   - name: ⚔️ CHATGPTD地址
     type: select
@@ -76,10 +76,10 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - UCLOUD_HKPRO
-      - 广港转发_HKPRO
-      - 莞港转发_HKPRO
-      - 深新
+      - "UCLOUD_HKPRO\r"
+      - "广港转发_HKPRO\r"
+      - "莞港转发_HKPRO\r"
+      - "深新\r"
       - 京德
   - name: ✅ 自定义地址
     type: select
@@ -87,10 +87,10 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - UCLOUD_HKPRO
-      - 广港转发_HKPRO
-      - 莞港转发_HKPRO
-      - 深新
+      - "UCLOUD_HKPRO\r"
+      - "广港转发_HKPRO\r"
+      - "莞港转发_HKPRO\r"
+      - "深新\r"
       - 京德
   - name: ✅ 欧洲特需
     type: select
@@ -98,10 +98,10 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - UCLOUD_HKPRO
-      - 广港转发_HKPRO
-      - 莞港转发_HKPRO
-      - 深新
+      - "UCLOUD_HKPRO\r"
+      - "广港转发_HKPRO\r"
+      - "莞港转发_HKPRO\r"
+      - "深新\r"
       - 京德
   - name: Ⓜ️ 微软服务
     type: select
@@ -109,10 +109,10 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 🚀 节点选择
-      - UCLOUD_HKPRO
-      - 广港转发_HKPRO
-      - 莞港转发_HKPRO
-      - 深新
+      - "UCLOUD_HKPRO\r"
+      - "广港转发_HKPRO\r"
+      - "莞港转发_HKPRO\r"
+      - "深新\r"
       - 京德
   - name: 🍎 苹果服务
     type: select
@@ -120,10 +120,10 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - UCLOUD_HKPRO
-      - 广港转发_HKPRO
-      - 莞港转发_HKPRO
-      - 深新
+      - "UCLOUD_HKPRO\r"
+      - "广港转发_HKPRO\r"
+      - "莞港转发_HKPRO\r"
+      - "深新\r"
       - 京德
   - name: 🎯 全球直连
     type: select
@@ -147,10 +147,10 @@ proxy-groups:
       - 🎯 全球直连
       - 🚀 节点选择
       - ♻️ 自动选择
-      - UCLOUD_HKPRO
-      - 广港转发_HKPRO
-      - 莞港转发_HKPRO
-      - 深新
+      - "UCLOUD_HKPRO\r"
+      - "广港转发_HKPRO\r"
+      - "莞港转发_HKPRO\r"
+      - "深新\r"
       - 京德
 
 rules:
