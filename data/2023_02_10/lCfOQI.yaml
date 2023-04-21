@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2023-04-21 08:30:34
+# 创建时间：2023-04-21 08:35:07
 # 使用模版：ACL4SSR_AdblockPlus.ini
-# 节点数量：7
+# 节点数量：6
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -21,88 +21,81 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"ucloud","type":"vmess","server":"45.11.185.246.globalssh.cn","port":60008,"cipher":"auto","uuid":"f2f3837e-8f33-44f7-c714-5357d5220ba8","alterId":0,"tls":false,"skip-cert-verify":true,"network":"tcp"}
   - {"name":"深新","type":"ss","server":"ucsg555-dsf65.inkcdn.cc","port":60001,"password":"Zb9TRWw2gJoKeyLb","cipher":"aes-256-gcm"}
   - {"name":"京德","type":"ss","server":"bd-f85d-5eagtir0.tianziyu.com","port":60001,"password":"ZdNVMOMUlNwEP0CY","cipher":"aes-256-gcm"}
   - {"name":"hkpro","type":"ss","server":"uchk-zf-77gd4.inkiwike.com","port":60005,"password":"FfoHE4vgvx","cipher":"aes-256-gcm"}
   - {"name":"wg_hkpro","type":"ss","server":"54dfg4fg5-hkzf2.tianziyu.com","port":60005,"password":"FfoHE4vgvx","cipher":"aes-256-gcm"}
   - {"name":"jp_hkpro","type":"ss","server":"fg8-alihrfd654fd5s-fsdfs.inkiwike.com","port":60005,"password":"FfoHE4vgvx","cipher":"aes-256-gcm"}
-  - {"name":"沪日","type":"ss","server":"61.152.183.110","port":40566,"password":"uy3m0uCWqSye4uOA","cipher":"aes-256-gcm"}
+  - {"name":"defaultName","type":"vless","server":"45.11.185.246.globalssh.cn","port":60008,"uuid":"c64d1eea-6f57-4a62-e1d2-918fc526defe","tls":false,"network":"tcp"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - ''
       - 深新
       - 京德
       - hkpro
       - wg_hkpro
       - jp_hkpro
-      - 沪日
+      - defaultName
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - ''
       - 深新
       - 京德
       - hkpro
       - wg_hkpro
       - jp_hkpro
-      - 沪日
+      - defaultName
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - ''
       - 深新
       - 京德
       - hkpro
       - wg_hkpro
       - jp_hkpro
-      - 沪日
+      - defaultName
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - ''
       - 深新
       - 京德
       - hkpro
       - wg_hkpro
       - jp_hkpro
-      - 沪日
+      - defaultName
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - ''
       - 深新
       - 京德
       - hkpro
       - wg_hkpro
       - jp_hkpro
-      - 沪日
+      - defaultName
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - ''
       - 深新
       - 京德
       - hkpro
       - wg_hkpro
       - jp_hkpro
-      - 沪日
+      - defaultName
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -130,13 +123,12 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - ''
       - 深新
       - 京德
       - hkpro
       - wg_hkpro
       - jp_hkpro
-      - 沪日
+      - defaultName
 
 rules:
 # 本地/局域网地址
