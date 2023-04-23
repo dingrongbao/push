@@ -24,9 +24,9 @@ proxies:
   - {"name":"广港_HKPRO_SS","type":"ss","server":"106.75.171.109","port":60005,"password":"FfoHE4vgvx","cipher":"aes-256-gcm"}
   - {"name":"广港_HKPRO","type":"vless","server":"106.75.171.109","port":60008,"uuid":"4e5db723-5986-4792-a917-8caba4e6e3b6","tls":false,"network":"tcp"}
   - {"name":"UCLOUD_HKPRO","type":"vless","server":"45.11.185.246.globalssh.cn","port":60008,"uuid":"4e5db723-5986-4792-a917-8caba4e6e3b6","tls":false,"network":"tcp"}
-  - {"name":"广港转发_HKPRO\r","type":"vless","server":"uchk-zf-77gd4.inkiwike.com","port":60008,"uuid":"4e5db723-5986-4792-a917-8caba4e6e3b6","tls":false,"network":"tcp"}
-  - {"name":"莞港转发_HKPRO\r","type":"vless","server":"54dfg4fg5-hkzf2.tianziyu.com","port":60008,"uuid":"4e5db723-5986-4792-a917-8caba4e6e3b6","tls":false,"network":"tcp"}
-  - {"name":"深新\r","type":"ss","server":"ucsg555-dsf65.inkcdn.cc","port":60001,"password":"Zb9TRWw2gJoKeyLb","cipher":"aes-256-gcm"}
+  - {"name":"广港转发_HKPRO","type":"vless","server":"uchk-zf-77gd4.inkiwike.com","port":60008,"uuid":"4e5db723-5986-4792-a917-8caba4e6e3b6","tls":false,"network":"tcp"}
+  - {"name":"莞港转发_HKPRO","type":"vless","server":"54dfg4fg5-hkzf2.tianziyu.com","port":60008,"uuid":"4e5db723-5986-4792-a917-8caba4e6e3b6","tls":false,"network":"tcp"}
+  - {"name":"深新","type":"ss","server":"ucsg555-dsf65.inkcdn.cc","port":60001,"password":"Zb9TRWw2gJoKeyLb","cipher":"aes-256-gcm"}
   - {"name":"京德","type":"ss","server":"bd-f85d-5eagtir0.tianziyu.com","port":60001,"password":"ZdNVMOMUlNwEP0CY","cipher":"aes-256-gcm"}
 proxy-groups:
   - name: 🚀 节点选择
@@ -37,9 +37,9 @@ proxy-groups:
       - 广港_HKPRO_SS
       - 广港_HKPRO
       - UCLOUD_HKPRO
-      - "广港转发_HKPRO\r"
-      - "莞港转发_HKPRO\r"
-      - "深新\r"
+      - 广港转发_HKPRO
+      - 莞港转发_HKPRO
+      - 深新
       - 京德
   - name: ♻️ 自动选择
     type: url-test
@@ -50,9 +50,9 @@ proxy-groups:
       - 广港_HKPRO_SS
       - 广港_HKPRO
       - UCLOUD_HKPRO
-      - "广港转发_HKPRO\r"
-      - "莞港转发_HKPRO\r"
-      - "深新\r"
+      - 广港转发_HKPRO
+      - 莞港转发_HKPRO
+      - 深新
       - 京德
   - name: 🌍 国外媒体
     type: select
@@ -63,9 +63,9 @@ proxy-groups:
       - 广港_HKPRO_SS
       - 广港_HKPRO
       - UCLOUD_HKPRO
-      - "广港转发_HKPRO\r"
-      - "莞港转发_HKPRO\r"
-      - "深新\r"
+      - 广港转发_HKPRO
+      - 莞港转发_HKPRO
+      - 深新
       - 京德
   - name: 📲 电报信息
     type: select
@@ -76,9 +76,9 @@ proxy-groups:
       - 广港_HKPRO_SS
       - 广港_HKPRO
       - UCLOUD_HKPRO
-      - "广港转发_HKPRO\r"
-      - "莞港转发_HKPRO\r"
-      - "深新\r"
+      - 广港转发_HKPRO
+      - 莞港转发_HKPRO
+      - 深新
       - 京德
   - name: ⚔️ CHATGPTD地址
     type: select
@@ -89,9 +89,9 @@ proxy-groups:
       - 广港_HKPRO_SS
       - 广港_HKPRO
       - UCLOUD_HKPRO
-      - "广港转发_HKPRO\r"
-      - "莞港转发_HKPRO\r"
-      - "深新\r"
+      - 广港转发_HKPRO
+      - 莞港转发_HKPRO
+      - 深新
       - 京德
   - name: ✅ 自定义地址
     type: select
@@ -102,9 +102,22 @@ proxy-groups:
       - 广港_HKPRO_SS
       - 广港_HKPRO
       - UCLOUD_HKPRO
-      - "广港转发_HKPRO\r"
-      - "莞港转发_HKPRO\r"
-      - "深新\r"
+      - 广港转发_HKPRO
+      - 莞港转发_HKPRO
+      - 深新
+      - 京德
+  - name: ✅ 欧洲特需
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - ♻️ 自动选择
+      - 🎯 全球直连
+      - 广港_HKPRO_SS
+      - 广港_HKPRO
+      - UCLOUD_HKPRO
+      - 广港转发_HKPRO
+      - 莞港转发_HKPRO
+      - 深新
       - 京德
   - name: Ⓜ️ 微软服务
     type: select
@@ -115,9 +128,9 @@ proxy-groups:
       - 广港_HKPRO_SS
       - 广港_HKPRO
       - UCLOUD_HKPRO
-      - "广港转发_HKPRO\r"
-      - "莞港转发_HKPRO\r"
-      - "深新\r"
+      - 广港转发_HKPRO
+      - 莞港转发_HKPRO
+      - 深新
       - 京德
   - name: 🍎 苹果服务
     type: select
@@ -128,9 +141,9 @@ proxy-groups:
       - 广港_HKPRO_SS
       - 广港_HKPRO
       - UCLOUD_HKPRO
-      - "广港转发_HKPRO\r"
-      - "莞港转发_HKPRO\r"
-      - "深新\r"
+      - 广港转发_HKPRO
+      - 莞港转发_HKPRO
+      - 深新
       - 京德
   - name: 🎯 全球直连
     type: select
@@ -157,9 +170,9 @@ proxy-groups:
       - 广港_HKPRO_SS
       - 广港_HKPRO
       - UCLOUD_HKPRO
-      - "广港转发_HKPRO\r"
-      - "莞港转发_HKPRO\r"
-      - "深新\r"
+      - 广港转发_HKPRO
+      - 莞港转发_HKPRO
+      - 深新
       - 京德
 
 rules:
@@ -217,9 +230,9 @@ rules:
   - DOMAIN-KEYWORD,ping.pe,✅ 自定义地址
   - DOMAIN-KEYWORD,skk,✅ 自定义地址
   - DOMAIN-KEYWORD,dqb.pw,✅ 自定义地址
-  - DOMAIN-KEYWORD,bing.com,✅ 自定义地址
-  - DOMAIN-KEYWORD,51pool,✅ 自定义地址
-  - DOMAIN-KEYWORD,epic,✅ 自定义地址
+  - DOMAIN-KEYWORD,bing.com,✅ 欧洲特需
+  - DOMAIN-KEYWORD,51pool,✅ 欧洲特需
+  - DOMAIN-KEYWORD,epic,✅ 欧洲特需
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-loopback,🎯 全球直连
@@ -3170,7 +3183,7 @@ rules:
   - IP-CIDR6,2001:67c:4e8::/48,📲 电报信息,no-resolve
   - IP-CIDR6,2001:b28:f23d::/48,📲 电报信息,no-resolve
   - IP-CIDR6,2001:b28:f23f::/48,📲 电报信息,no-resolve
-  - DOMAIN-SUFFIX,openai.com,⚔️ CHATGPTD地址
+  - DOMAIN-KEYWORD,openai,⚔️ CHATGPTD地址
   - DOMAIN-SUFFIX,v2rayse.com,🚀 节点选择
   - DOMAIN-SUFFIX,cff.pw,🚀 节点选择
   - DOMAIN-SUFFIX,vpnse.org,🚀 节点选择
