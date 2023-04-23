@@ -106,19 +106,6 @@ proxy-groups:
       - "莞港转发_HKPRO\r"
       - "深新\r"
       - 京德
-  - name: ✅ 欧洲特需
-    type: select
-    proxies:
-      - 🚀 节点选择
-      - ♻️ 自动选择
-      - 🎯 全球直连
-      - 广港_HKPRO_SS
-      - 广港_HKPRO
-      - UCLOUD_HKPRO
-      - "广港转发_HKPRO\r"
-      - "莞港转发_HKPRO\r"
-      - "深新\r"
-      - 京德
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -230,9 +217,9 @@ rules:
   - DOMAIN-KEYWORD,ping.pe,✅ 自定义地址
   - DOMAIN-KEYWORD,skk,✅ 自定义地址
   - DOMAIN-KEYWORD,dqb.pw,✅ 自定义地址
-  - DOMAIN-KEYWORD,bing.com,✅ 欧洲特需
-  - DOMAIN-KEYWORD,51pool,✅ 欧洲特需
-  - DOMAIN-KEYWORD,epic,✅ 欧洲特需
+  - DOMAIN-KEYWORD,bing.com,✅ 自定义地址
+  - DOMAIN-KEYWORD,51pool,✅ 自定义地址
+  - DOMAIN-KEYWORD,epic,✅ 自定义地址
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-loopback,🎯 全球直连
