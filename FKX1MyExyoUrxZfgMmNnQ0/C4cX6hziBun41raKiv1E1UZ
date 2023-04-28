@@ -19,8 +19,8 @@ dns:
     - 8.8.4.4
     - tls://1.0.0.1:853
     - tls://dns.google:853
-
 proxies:
+  - {"name":"defaultName","type":"socks5","server":"di4gdf-sh-us-fdf66.inkiwike.com 22324","port":"22324","username":"samspeed","password":"ly20101228"}
   - {"name":"广港_HKPRO_SS","type":"ss","server":"106.75.171.109","port":60005,"password":"FfoHE4vgvx","cipher":"aes-256-gcm"}
   - {"name":"广港_HKPRO","type":"vless","server":"106.75.171.109","port":60008,"uuid":"4e5db723-5986-4792-a917-8caba4e6e3b6","tls":false,"network":"tcp"}
   - {"name":"UCLOUD_HKPRO","type":"vless","server":"45.11.185.246.globalssh.cn","port":60008,"uuid":"4e5db723-5986-4792-a917-8caba4e6e3b6","tls":false,"network":"tcp"}
@@ -35,6 +35,7 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - DIRECT
+      - defaultName
       - 广港_HKPRO_SS
       - 广港_HKPRO
       - UCLOUD_HKPRO
@@ -49,6 +50,7 @@ proxy-groups:
     interval: 30
     tolerance: 10
     proxies:
+      - defaultName
       - 广港_HKPRO_SS
       - 广港_HKPRO
       - UCLOUD_HKPRO
@@ -63,6 +65,7 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - defaultName
       - 广港_HKPRO_SS
       - 广港_HKPRO
       - UCLOUD_HKPRO
@@ -77,6 +80,7 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - defaultName
       - 广港_HKPRO_SS
       - 广港_HKPRO
       - UCLOUD_HKPRO
@@ -91,6 +95,7 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - defaultName
       - 广港_HKPRO_SS
       - 广港_HKPRO
       - UCLOUD_HKPRO
@@ -105,6 +110,7 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - defaultName
       - 广港_HKPRO_SS
       - 广港_HKPRO
       - UCLOUD_HKPRO
@@ -119,6 +125,7 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 🚀 节点选择
+      - defaultName
       - 广港_HKPRO_SS
       - 广港_HKPRO
       - UCLOUD_HKPRO
@@ -133,6 +140,7 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - defaultName
       - 广港_HKPRO_SS
       - 广港_HKPRO
       - UCLOUD_HKPRO
@@ -163,6 +171,7 @@ proxy-groups:
       - 🎯 全球直连
       - 🚀 节点选择
       - ♻️ 自动选择
+      - defaultName
       - 广港_HKPRO_SS
       - 广港_HKPRO
       - UCLOUD_HKPRO
