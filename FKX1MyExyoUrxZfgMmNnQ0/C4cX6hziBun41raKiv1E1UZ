@@ -21,7 +21,6 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"沪美sk5","type":"socks5","server":"di4gdf-sh-us-fdf66.inkiwike.com","port":22324,"username":"samspeed","password":"ly20101228"}
   - {"name":"广港_HKPRO_SS","type":"ss","server":"106.75.171.109","port":60005,"password":"FfoHE4vgvx","cipher":"aes-256-gcm"}
   - {"name":"广港_HKPRO","type":"vless","server":"106.75.171.109","port":60008,"uuid":"4e5db723-5986-4792-a917-8caba4e6e3b6","tls":false,"network":"tcp"}
   - {"name":"UCLOUD_HKPRO","type":"vless","server":"45.11.185.246.globalssh.cn","port":60008,"uuid":"4e5db723-5986-4792-a917-8caba4e6e3b6","tls":false,"network":"tcp"}
@@ -30,13 +29,13 @@ proxies:
   - {"name":"沪日IPLC\r","type":"ss","server":"113.31.119.32","port":40566,"password":"uy3m0uCWqSye4uOA","cipher":"aes-256-gcm"}
   - {"name":"深新","type":"ss","server":"ucsg555-dsf65.inkcdn.cc","port":60001,"password":"Zb9TRWw2gJoKeyLb","cipher":"aes-256-gcm"}
   - {"name":"京德","type":"ss","server":"ucjd65f4-de5f4d.tianziyu.com","port":60001,"password":"gczuUnnUP7myBPgQ","cipher":"aes-256-gcm"}
+  - {"name":"沪美SK5","type":"socks5","server":"di4gdf-sh-us-fdf66.inkiwike.com","port":22324,"username":"samspeed","password":"ly20101228"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 沪美sk5
       - 广港_HKPRO_SS
       - 广港_HKPRO
       - UCLOUD_HKPRO
@@ -45,13 +44,13 @@ proxy-groups:
       - "沪日IPLC\r"
       - 深新
       - 京德
+      - 沪美SK5
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.google.com/generate_204
     interval: 30
     tolerance: 10
     proxies:
-      - 沪美sk5
       - 广港_HKPRO_SS
       - 广港_HKPRO
       - UCLOUD_HKPRO
@@ -60,13 +59,13 @@ proxy-groups:
       - "沪日IPLC\r"
       - 深新
       - 京德
+      - 沪美SK5
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 沪美sk5
       - 广港_HKPRO_SS
       - 广港_HKPRO
       - UCLOUD_HKPRO
@@ -75,13 +74,13 @@ proxy-groups:
       - "沪日IPLC\r"
       - 深新
       - 京德
+      - 沪美SK5
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 沪美sk5
       - 广港_HKPRO_SS
       - 广港_HKPRO
       - UCLOUD_HKPRO
@@ -90,13 +89,13 @@ proxy-groups:
       - "沪日IPLC\r"
       - 深新
       - 京德
+      - 沪美SK5
   - name: ⚔️ CHATGPTD地址
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 沪美sk5
       - 广港_HKPRO_SS
       - 广港_HKPRO
       - UCLOUD_HKPRO
@@ -105,13 +104,13 @@ proxy-groups:
       - "沪日IPLC\r"
       - 深新
       - 京德
+      - 沪美SK5
   - name: ✅ 自定义地址
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 沪美sk5
       - 广港_HKPRO_SS
       - 广港_HKPRO
       - UCLOUD_HKPRO
@@ -120,13 +119,13 @@ proxy-groups:
       - "沪日IPLC\r"
       - 深新
       - 京德
+      - 沪美SK5
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 🚀 节点选择
-      - 沪美sk5
       - 广港_HKPRO_SS
       - 广港_HKPRO
       - UCLOUD_HKPRO
@@ -135,13 +134,13 @@ proxy-groups:
       - "沪日IPLC\r"
       - 深新
       - 京德
+      - 沪美SK5
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 沪美sk5
       - 广港_HKPRO_SS
       - 广港_HKPRO
       - UCLOUD_HKPRO
@@ -150,6 +149,7 @@ proxy-groups:
       - "沪日IPLC\r"
       - 深新
       - 京德
+      - 沪美SK5
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -172,7 +172,6 @@ proxy-groups:
       - 🎯 全球直连
       - 🚀 节点选择
       - ♻️ 自动选择
-      - 沪美sk5
       - 广港_HKPRO_SS
       - 广港_HKPRO
       - UCLOUD_HKPRO
@@ -181,6 +180,7 @@ proxy-groups:
       - "沪日IPLC\r"
       - 深新
       - 京德
+      - 沪美SK5
 
 rules:
   - DOMAIN-KEYWORD,tencentcloud.com,✅ 自定义地址
