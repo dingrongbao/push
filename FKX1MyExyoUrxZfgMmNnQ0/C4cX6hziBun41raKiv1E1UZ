@@ -28,7 +28,7 @@ proxies:
   - {"name":"莞港转发_HKPRO","type":"vless","server":"54dfg4fg5-hkzf2.tianziyu.com","port":60008,"uuid":"4e5db723-5986-4792-a917-8caba4e6e3b6","tls":false,"network":"tcp"}
   - {"name":"沪日IPLC\r","type":"ss","server":"113.31.119.32","port":40566,"password":"uy3m0uCWqSye4uOA","cipher":"aes-256-gcm"}
   - {"name":"深新","type":"ss","server":"ucsg555-dsf65.inkcdn.cc","port":60001,"password":"Zb9TRWw2gJoKeyLb","cipher":"aes-256-gcm"}
-  - {"name":"京德","type":"ss","server":"bd-f85d-5eagtir0.tianziyu.com","port":60001,"password":"ZdNVMOMUlNwEP0CY","cipher":"aes-256-gcm"}
+  - {"name":"京德","type":"ss","server":"ucjd65f4-de5f4d.tianziyu.com","port":60001,"password":"gczuUnnUP7myBPgQ","cipher":"aes-256-gcm"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
