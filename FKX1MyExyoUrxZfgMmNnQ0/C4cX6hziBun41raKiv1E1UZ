@@ -27,7 +27,7 @@ proxies:
   - {"name":"广港转发_HKPRO","type":"vless","server":"uchk-zf-77gd4.inkiwike.com","port":60008,"uuid":"4e5db723-5986-4792-a917-8caba4e6e3b6","tls":false,"network":"tcp"}
   - {"name":"莞港转发_HKPRO","type":"vless","server":"54dfg4fg5-hkzf2.tianziyu.com","port":60008,"uuid":"4e5db723-5986-4792-a917-8caba4e6e3b6","tls":false,"network":"tcp"}
   - {"name":"沪日IPLC","type":"ss","server":"113.31.119.32","port":40566,"password":"uy3m0uCWqSye4uOA","cipher":"aes-256-gcm",udp: true}
-  - {"name":"沪美SK5","type":"socks5","server":"di4gdf-sh-us-fdf66.inkiwike.com","port":22324,"username":"samspeed","password":"ly20101228"}
+  - {"name":"沪美SK5","type":"socks5","server":"di4gdf-sh-us-fdf66.inkiwike.com","port":32324,"username":"samspeed","password":"ly20101228"}
   - {"name":"UCLOUD_HKPRO","type":"vless","server":"45.11.185.246.globalssh.cn","port":60008,"uuid":"4e5db723-5986-4792-a917-8caba4e6e3b6","tls":false,"network":"tcp"}
 proxy-groups:
   - name: 🚀 节点选择
