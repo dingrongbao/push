@@ -22,12 +22,12 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"广港_SS","type":"ss","server":"106.75.171.109","port":60004,"password":"FfoHE4vgvx","cipher":"aes-256-gcm",udp: true}
-  - {"name":"广港_Hytron_SS_1","type":"ss","server":"106.75.171.109","port":60005,"password":"FfoHE4vgvx","cipher":"aes-256-gcm",udp: true}
-  - {"name":"莞港_Hytron_SS","type":"ss","server":"54dfg4fg5-hkzf2.tianziyu.com","port":60005,"password":"FfoHE4vgvx","cipher":"aes-256-gcm",udp: true}
-  - {"name":"广港_Hytron_SS_2","type":"ss","server":"uchk-zf-77gd4.inkiwike.com","port":60005,"password":"FfoHE4vgvx","cipher":"aes-256-gcm",udp: true}
-  - {"name":"沪日_Hytron_SS","type":"ss","server":"fg8-alihrfd654fd5s-fsdfs.inkiwike.com","port":60005,"password":"FfoHE4vgvx","cipher":"aes-256-gcm",udp: true}
-  - {"name":"沪日IPLC","type":"ss","server":"113.31.119.32","port":40566,"password":"uy3m0uCWqSye4uOA","cipher":"aes-256-gcm",udp: true}
+  - {"name":"广港_SS","type":"ss","server":"106.75.171.109","port":60004,"password":"FfoHE4vgvx","cipher":"aes-256-gcm"}
+  - {"name":"广港_Hytron_SS","type":"ss","server":"106.75.171.109","port":60005,"password":"FfoHE4vgvx","cipher":"aes-256-gcm"}
+  - {"name":"莞港_Hytron_SS","type":"ss","server":"54dfg4fg5-hkzf2.tianziyu.com","port":60005,"password":"FfoHE4vgvx","cipher":"aes-256-gcm"}
+  - {"name":"广港转发_Hytron_SS","type":"ss","server":"uchk-zf-77gd4.inkiwike.com","port":60005,"password":"FfoHE4vgvx","cipher":"aes-256-gcm"}
+  - {"name":"沪日_Hytron_SS","type":"ss","server":"fg8-alihrfd654fd5s-fsdfs.inkiwike.com","port":60005,"password":"FfoHE4vgvx","cipher":"aes-256-gcm"}
+  - {"name":"沪日IPLC","type":"ss","server":"113.31.119.32","port":40566,"password":"uy3m0uCWqSye4uOA","cipher":"aes-256-gcm"}
   - {"name":"defaultName","type":"socks5","server":"di4gdf-sh-us-fdf66.inkiwike.com","port":32324,"username":"samspeed","password":"ly20101228"}
   - {"name":"UCLOUD_HKPRO","type":"vless","server":"45.11.185.246.globalssh.cn","port":60008,"uuid":"4e5db723-5986-4792-a917-8caba4e6e3b6","tls":false,"network":"tcp"}
 proxy-groups:
@@ -37,9 +37,9 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
       - 广港_SS
-      - 广港_Hytron_SS_1
+      - 广港_Hytron_SS
       - 莞港_Hytron_SS
-      - 广港_Hytron_SS_2
+      - 广港转发_Hytron_SS
       - 沪日_Hytron_SS
       - 沪日IPLC
       - defaultName
@@ -51,9 +51,9 @@ proxy-groups:
     tolerance: 10
     proxies:
       - 广港_SS
-      - 广港_Hytron_SS_1
+      - 广港_Hytron_SS
       - 莞港_Hytron_SS
-      - 广港_Hytron_SS_2
+      - 广港转发_Hytron_SS
       - 沪日_Hytron_SS
       - 沪日IPLC
       - defaultName
@@ -65,9 +65,9 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 广港_SS
-      - 广港_Hytron_SS_1
+      - 广港_Hytron_SS
       - 莞港_Hytron_SS
-      - 广港_Hytron_SS_2
+      - 广港转发_Hytron_SS
       - 沪日_Hytron_SS
       - 沪日IPLC
       - defaultName
@@ -79,9 +79,9 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 广港_SS
-      - 广港_Hytron_SS_1
+      - 广港_Hytron_SS
       - 莞港_Hytron_SS
-      - 广港_Hytron_SS_2
+      - 广港转发_Hytron_SS
       - 沪日_Hytron_SS
       - 沪日IPLC
       - defaultName
@@ -93,9 +93,9 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 广港_SS
-      - 广港_Hytron_SS_1
+      - 广港_Hytron_SS
       - 莞港_Hytron_SS
-      - 广港_Hytron_SS_2
+      - 广港转发_Hytron_SS
       - 沪日_Hytron_SS
       - 沪日IPLC
       - defaultName
@@ -107,9 +107,9 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 广港_SS
-      - 广港_Hytron_SS_1
+      - 广港_Hytron_SS
       - 莞港_Hytron_SS
-      - 广港_Hytron_SS_2
+      - 广港转发_Hytron_SS
       - 沪日_Hytron_SS
       - 沪日IPLC
       - defaultName
@@ -121,9 +121,9 @@ proxy-groups:
       - ♻️ 自动选择
       - 🚀 节点选择
       - 广港_SS
-      - 广港_Hytron_SS_1
+      - 广港_Hytron_SS
       - 莞港_Hytron_SS
-      - 广港_Hytron_SS_2
+      - 广港转发_Hytron_SS
       - 沪日_Hytron_SS
       - 沪日IPLC
       - defaultName
@@ -135,9 +135,9 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 广港_SS
-      - 广港_Hytron_SS_1
+      - 广港_Hytron_SS
       - 莞港_Hytron_SS
-      - 广港_Hytron_SS_2
+      - 广港转发_Hytron_SS
       - 沪日_Hytron_SS
       - 沪日IPLC
       - defaultName
@@ -165,9 +165,9 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 广港_SS
-      - 广港_Hytron_SS_1
+      - 广港_Hytron_SS
       - 莞港_Hytron_SS
-      - 广港_Hytron_SS_2
+      - 广港转发_Hytron_SS
       - 沪日_Hytron_SS
       - 沪日IPLC
       - defaultName
