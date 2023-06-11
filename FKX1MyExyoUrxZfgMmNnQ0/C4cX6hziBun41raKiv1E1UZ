@@ -21,7 +21,7 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"ucloud_alibaba","type":"ss","server":"47.243.57.171.globalssh.cn","port":60004,"password":"FfoHE4vgvx","cipher":"aes-256-gcm"}
+  - {"name":"ucloud_alibaba","type":"ss","server":"47.243.57.171.globalssh.cn","port":60004,"password":"FfoHE4vgvx","cipher":"aes-256-gcm","udp":true}
   - {"name":"广港_SS","type":"ss","server":"106.75.171.109","port":60004,"udp":true,"password":"FfoHE4vgvx","cipher":"aes-256-gcm"}
   - {"name":"广港_Hytron_SS","type":"ss","server":"106.75.171.109","port":60005,"password":"FfoHE4vgvx","cipher":"aes-256-gcm"}
   - {"name":"广港_新加坡_SS","type":"ss","server":"106.75.171.109","port":60006,"password":"FfoHE4vgvx","cipher":"aes-256-gcm"}
