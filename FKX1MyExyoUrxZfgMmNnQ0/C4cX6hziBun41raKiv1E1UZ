@@ -23,11 +23,6 @@ dns:
 proxies:
   - {"name":"ucloud_alibaba","type":"ss","server":"47.243.57.171.globalssh.cn","port":60004,"udp":true,"password":"FfoHE4vgvx","cipher":"aes-256-gcm"}
   - {"name":"广港_SS","type":"ss","server":"106.75.171.109","port":60004,"udp":true,"password":"FfoHE4vgvx","cipher":"aes-256-gcm"}
-  - {"name":"广港_Hytron_SS","type":"ss","server":"106.75.171.109","port":60005,"udp":true,"password":"FfoHE4vgvx","cipher":"aes-256-gcm"}
-  - {"name":"广港_新加坡_SS","type":"ss","server":"106.75.171.109","port":60006,"udp":true,"password":"FfoHE4vgvx","cipher":"aes-256-gcm"}
-  - {"name":"莞港_Hytron_SS","type":"ss","server":"54dfg4fg5-hkzf2.tianziyu.com","port":60005,"udp":true,"password":"FfoHE4vgvx","cipher":"aes-256-gcm"}
-  - {"name":"广港转发_Hytron_SS","type":"ss","server":"uchk-zf-77gd4.inkiwike.com","port":60005,"udp":true,"password":"FfoHE4vgvx","cipher":"aes-256-gcm"}
-  - {"name":"沪日_Hytron_SS","type":"ss","server":"fg8-alihrfd654fd5s-fsdfs.inkiwike.com","port":60005,"udp":true,"password":"FfoHE4vgvx","cipher":"aes-256-gcm"}
   - {"name":"沪日IPLC","type":"ss","server":"113.31.119.32","port":40566,"udp":true,"password":"uy3m0uCWqSye4uOA","cipher":"aes-256-gcm"}
 proxy-groups:
   - name: 🚀 节点选择
@@ -37,11 +32,6 @@ proxy-groups:
       - DIRECT
       - ucloud_alibaba
       - 广港_SS
-      - 广港_Hytron_SS
-      - 广港_新加坡_SS
-      - 莞港_Hytron_SS
-      - 广港转发_Hytron_SS
-      - 沪日_Hytron_SS
       - 沪日IPLC
   - name: ♻️ 自动选择
     type: url-test
@@ -51,11 +41,6 @@ proxy-groups:
     proxies:
       - ucloud_alibaba
       - 广港_SS
-      - 广港_Hytron_SS
-      - 广港_新加坡_SS
-      - 莞港_Hytron_SS
-      - 广港转发_Hytron_SS
-      - 沪日_Hytron_SS
       - 沪日IPLC
   - name: 🌍 国外媒体
     type: select
@@ -65,11 +50,6 @@ proxy-groups:
       - 🎯 全球直连
       - ucloud_alibaba
       - 广港_SS
-      - 广港_Hytron_SS
-      - 广港_新加坡_SS
-      - 莞港_Hytron_SS
-      - 广港转发_Hytron_SS
-      - 沪日_Hytron_SS
       - 沪日IPLC
   - name: 📲 电报信息
     type: select
@@ -79,11 +59,6 @@ proxy-groups:
       - 🎯 全球直连
       - ucloud_alibaba
       - 广港_SS
-      - 广港_Hytron_SS
-      - 广港_新加坡_SS
-      - 莞港_Hytron_SS
-      - 广港转发_Hytron_SS
-      - 沪日_Hytron_SS
       - 沪日IPLC
   - name: ⚔️ CHATGPTD地址
     type: select
@@ -93,11 +68,6 @@ proxy-groups:
       - 🎯 全球直连
       - ucloud_alibaba
       - 广港_SS
-      - 广港_Hytron_SS
-      - 广港_新加坡_SS
-      - 莞港_Hytron_SS
-      - 广港转发_Hytron_SS
-      - 沪日_Hytron_SS
       - 沪日IPLC
   - name: ✅ 自定义地址
     type: select
@@ -107,11 +77,6 @@ proxy-groups:
       - 🎯 全球直连
       - ucloud_alibaba
       - 广港_SS
-      - 广港_Hytron_SS
-      - 广港_新加坡_SS
-      - 莞港_Hytron_SS
-      - 广港转发_Hytron_SS
-      - 沪日_Hytron_SS
       - 沪日IPLC
   - name: Ⓜ️ 微软服务
     type: select
@@ -121,11 +86,6 @@ proxy-groups:
       - 🚀 节点选择
       - ucloud_alibaba
       - 广港_SS
-      - 广港_Hytron_SS
-      - 广港_新加坡_SS
-      - 莞港_Hytron_SS
-      - 广港转发_Hytron_SS
-      - 沪日_Hytron_SS
       - 沪日IPLC
   - name: 🍎 苹果服务
     type: select
@@ -135,11 +95,6 @@ proxy-groups:
       - 🎯 全球直连
       - ucloud_alibaba
       - 广港_SS
-      - 广港_Hytron_SS
-      - 广港_新加坡_SS
-      - 莞港_Hytron_SS
-      - 广港转发_Hytron_SS
-      - 沪日_Hytron_SS
       - 沪日IPLC
   - name: 🎯 全球直连
     type: select
@@ -165,11 +120,6 @@ proxy-groups:
       - ♻️ 自动选择
       - ucloud_alibaba
       - 广港_SS
-      - 广港_Hytron_SS
-      - 广港_新加坡_SS
-      - 莞港_Hytron_SS
-      - 广港转发_Hytron_SS
-      - 沪日_Hytron_SS
       - 沪日IPLC
 
 rules:
