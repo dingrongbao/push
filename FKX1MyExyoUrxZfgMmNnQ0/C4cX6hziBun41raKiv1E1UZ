@@ -21,15 +21,14 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"ucloud_alibaba","type":"ss","server":"47.243.57.171.globalssh.cn","port":60004,"password":"FfoHE4vgvx","cipher":"aes-256-gcm","udp":true}
+  - {"name":"ucloud_alibaba","type":"ss","server":"47.243.57.171.globalssh.cn","port":60004,"udp":true,"password":"FfoHE4vgvx","cipher":"aes-256-gcm"}
   - {"name":"广港_SS","type":"ss","server":"106.75.171.109","port":60004,"udp":true,"password":"FfoHE4vgvx","cipher":"aes-256-gcm"}
-  - {"name":"广港_Hytron_SS","type":"ss","server":"106.75.171.109","port":60005,"password":"FfoHE4vgvx","cipher":"aes-256-gcm","udp":true}
-  - {"name":"广港_新加坡_SS","type":"ss","server":"106.75.171.109","port":60006,"password":"FfoHE4vgvx","cipher":"aes-256-gcm","udp":true}
-  - {"name":"莞港_Hytron_SS","type":"ss","server":"54dfg4fg5-hkzf2.tianziyu.com","port":60005,"password":"FfoHE4vgvx","cipher":"aes-256-gcm","udp":true}
-  - {"name":"广港转发_Hytron_SS","type":"ss","server":"uchk-zf-77gd4.inkiwike.com","port":60005,"password":"FfoHE4vgvx","cipher":"aes-256-gcm","udp":true}
-  - {"name":"沪日_Hytron_SS","type":"ss","server":"fg8-alihrfd654fd5s-fsdfs.inkiwike.com","port":60005,"password":"FfoHE4vgvx","cipher":"aes-256-gcm","udp":true}
-  - {"name":"沪日IPLC","type":"ss","server":"113.31.119.32","port":40566,"password":"uy3m0uCWqSye4uOA","cipher":"aes-256-gcm","udp":true}
-  - {"name":"沪美socks5","type":"socks5","server":"di4gdf-sh-us-fdf66.inkiwike.com","port":32324,"username":"samspeed","password":"ly20101228"}
+  - {"name":"广港_Hytron_SS","type":"ss","server":"106.75.171.109","port":60005,"udp":true,"password":"FfoHE4vgvx","cipher":"aes-256-gcm"}
+  - {"name":"广港_新加坡_SS","type":"ss","server":"106.75.171.109","port":60006,"udp":true,"password":"FfoHE4vgvx","cipher":"aes-256-gcm"}
+  - {"name":"莞港_Hytron_SS","type":"ss","server":"54dfg4fg5-hkzf2.tianziyu.com","port":60005,"udp":true,"password":"FfoHE4vgvx","cipher":"aes-256-gcm"}
+  - {"name":"广港转发_Hytron_SS","type":"ss","server":"uchk-zf-77gd4.inkiwike.com","port":60005,"udp":true,"password":"FfoHE4vgvx","cipher":"aes-256-gcm"}
+  - {"name":"沪日_Hytron_SS","type":"ss","server":"fg8-alihrfd654fd5s-fsdfs.inkiwike.com","port":60005,"udp":true,"password":"FfoHE4vgvx","cipher":"aes-256-gcm"}
+  - {"name":"沪日IPLC","type":"ss","server":"113.31.119.32","port":40566,"udp":true,"password":"uy3m0uCWqSye4uOA","cipher":"aes-256-gcm"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -44,7 +43,6 @@ proxy-groups:
       - 广港转发_Hytron_SS
       - 沪日_Hytron_SS
       - 沪日IPLC
-      - 沪美socks5
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.google.com/generate_204
@@ -59,7 +57,6 @@ proxy-groups:
       - 广港转发_Hytron_SS
       - 沪日_Hytron_SS
       - 沪日IPLC
-      - 沪美socks5
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -74,7 +71,6 @@ proxy-groups:
       - 广港转发_Hytron_SS
       - 沪日_Hytron_SS
       - 沪日IPLC
-      - 沪美socks5
   - name: 📲 电报信息
     type: select
     proxies:
@@ -89,7 +85,6 @@ proxy-groups:
       - 广港转发_Hytron_SS
       - 沪日_Hytron_SS
       - 沪日IPLC
-      - 沪美socks5
   - name: ⚔️ CHATGPTD地址
     type: select
     proxies:
@@ -104,7 +99,6 @@ proxy-groups:
       - 广港转发_Hytron_SS
       - 沪日_Hytron_SS
       - 沪日IPLC
-      - 沪美socks5
   - name: ✅ 自定义地址
     type: select
     proxies:
@@ -119,7 +113,6 @@ proxy-groups:
       - 广港转发_Hytron_SS
       - 沪日_Hytron_SS
       - 沪日IPLC
-      - 沪美socks5
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -134,7 +127,6 @@ proxy-groups:
       - 广港转发_Hytron_SS
       - 沪日_Hytron_SS
       - 沪日IPLC
-      - 沪美socks5
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -149,7 +141,6 @@ proxy-groups:
       - 广港转发_Hytron_SS
       - 沪日_Hytron_SS
       - 沪日IPLC
-      - 沪美socks5
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -180,7 +171,6 @@ proxy-groups:
       - 广港转发_Hytron_SS
       - 沪日_Hytron_SS
       - 沪日IPLC
-      - 沪美socks5
 
 rules:
   - DOMAIN-KEYWORD,tencentcloud.com,✅ 自定义地址
