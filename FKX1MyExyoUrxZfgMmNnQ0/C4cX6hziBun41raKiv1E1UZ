@@ -21,9 +21,9 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"ucloud_alibaba","type":"ss","server":"47.243.57.171.globalssh.cn","port":60004,"udp":true,"password":"FfoHE4vgvx","cipher":"aes-256-gcm"}
-  - {"name":"广港_SS","type":"ss","server":"106.75.171.109","port":60004,"udp":true,"password":"FfoHE4vgvx","cipher":"aes-256-gcm"}
-  - {"name":"沪日IPLC","type":"ss","server":"113.31.119.32","port":40566,"udp":true,"password":"uy3m0uCWqSye4uOA","cipher":"aes-256-gcm"}
+  - {"name":"ucloud_alibaba","type":"ss","server":"cdn.btc8080.top","port":60004,"password":"FfoHE4vgvx","cipher":"aes-256-gcm"}
+  - {"name":"广港_SS","type":"ss","server":"106.75.171.109","port":60004,"password":"FfoHE4vgvx","cipher":"aes-256-gcm"}
+  - {"name":"沪日IPLC","type":"ss","server":"113.31.119.32","port":40566,"password":"uy3m0uCWqSye4uOA","cipher":"aes-256-gcm"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
