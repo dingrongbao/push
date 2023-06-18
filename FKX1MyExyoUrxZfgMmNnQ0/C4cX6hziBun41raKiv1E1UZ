@@ -34,7 +34,7 @@ proxy-groups:
       - 广港_SS
       - 沪日IPLC
   - name: ♻️ 自动选择
-    type: url-test
+    type: fallback
     url: http://www.google.com/generate_204
     interval: 30
     tolerance: 10
