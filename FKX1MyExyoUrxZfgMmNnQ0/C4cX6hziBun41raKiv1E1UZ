@@ -21,7 +21,6 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"广港_HKPRO","type":"ss","server":"106.75.171.109","port":60040,"password":"FfoHE4vgvx","cipher":"aes-256-gcm"}
   - {"name":"广港_SS","type":"ss","server":"106.75.171.109","port":60004,"password":"FfoHE4vgvx","cipher":"aes-256-gcm"}
   - {"name":"广港转发_HKPRO","type":"ss","server":"uchk-zf-77gd4.inkiwike.com","port":60040,"password":"FfoHE4vgvx","cipher":"aes-256-gcm"}
   - {"name":"ucloud_alibaba","type":"ss","server":"47.243.57.171.iprdp.net","port":13389,"password":"FfoHE4vgvx","cipher":"aes-256-gcm"}
@@ -32,7 +31,6 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 广港_HKPRO
       - 广港_SS
       - 广港转发_HKPRO
       - ucloud_alibaba
@@ -43,7 +41,6 @@ proxy-groups:
     interval: 30
     tolerance: 10
     proxies:
-      - 广港_HKPRO
       - 广港_SS
       - 广港转发_HKPRO
       - ucloud_alibaba
@@ -54,7 +51,6 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 广港_HKPRO
       - 广港_SS
       - 广港转发_HKPRO
       - ucloud_alibaba
@@ -65,7 +61,6 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 广港_HKPRO
       - 广港_SS
       - 广港转发_HKPRO
       - ucloud_alibaba
@@ -76,7 +71,6 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 广港_HKPRO
       - 广港_SS
       - 广港转发_HKPRO
       - ucloud_alibaba
@@ -87,7 +81,6 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 广港_HKPRO
       - 广港_SS
       - 广港转发_HKPRO
       - ucloud_alibaba
@@ -98,7 +91,6 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 🚀 节点选择
-      - 广港_HKPRO
       - 广港_SS
       - 广港转发_HKPRO
       - ucloud_alibaba
@@ -109,7 +101,6 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 广港_HKPRO
       - 广港_SS
       - 广港转发_HKPRO
       - ucloud_alibaba
@@ -136,7 +127,6 @@ proxy-groups:
       - 🎯 全球直连
       - 🚀 节点选择
       - ♻️ 自动选择
-      - 广港_HKPRO
       - 广港_SS
       - 广港转发_HKPRO
       - ucloud_alibaba
