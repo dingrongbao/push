@@ -21,90 +21,99 @@ dns:
     - tls://dns.google:853
 
 proxies:
-  - {"name":"广港_SS","type":"ss","server":"106.75.171.109","port":60004,"password":"FfoHE4vgvx","cipher":"aes-256-gcm"}
-  - {"name":"广港转发_HKPRO","type":"ss","server":"uchk-zf-77gd4.inkiwike.com","port":60040,"password":"FfoHE4vgvx","cipher":"aes-256-gcm"}
+  - {"name":"香港01_1","type":"ss","server":"120.232.235.221","port":46347,"password":"FfoHE4vgvx","cipher":"aes-256-gcm"}
+  - {"name":"香港01_2","type":"ss","server":"120.232.235.197","port":46347,"password":"FfoHE4vgvx","cipher":"aes-256-gcm"}
+  - {"name":"香港01_3","type":"ss","server":"120.232.235.198","port":46347,"password":"FfoHE4vgvx","cipher":"aes-256-gcm"}
+  - {"name":"香港01_4","type":"ss","server":"120.232.235.199","port":46347,"password":"FfoHE4vgvx","cipher":"aes-256-gcm"}
   - {"name":"ucloud_alibaba","type":"ss","server":"47.243.57.171.iprdp.net","port":13389,"password":"FfoHE4vgvx","cipher":"aes-256-gcm"}
-  - {"name":"沪日IPLC","type":"ss","server":"113.31.119.32","port":40566,"password":"uy3m0uCWqSye4uOA","cipher":"aes-256-gcm"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 广港_SS
-      - 广港转发_HKPRO
+      - 香港01_1
+      - 香港01_2
+      - 香港01_3
+      - 香港01_4
       - ucloud_alibaba
-      - 沪日IPLC
   - name: ♻️ 自动选择
     type: fallback
     url: http://www.google.com/generate_204
     interval: 30
     tolerance: 10
     proxies:
-      - 广港_SS
-      - 广港转发_HKPRO
+      - 香港01_1
+      - 香港01_2
+      - 香港01_3
+      - 香港01_4
       - ucloud_alibaba
-      - 沪日IPLC
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 广港_SS
-      - 广港转发_HKPRO
+      - 香港01_1
+      - 香港01_2
+      - 香港01_3
+      - 香港01_4
       - ucloud_alibaba
-      - 沪日IPLC
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 广港_SS
-      - 广港转发_HKPRO
+      - 香港01_1
+      - 香港01_2
+      - 香港01_3
+      - 香港01_4
       - ucloud_alibaba
-      - 沪日IPLC
   - name: ⚔️ CHATGPTD地址
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 广港_SS
-      - 广港转发_HKPRO
+      - 香港01_1
+      - 香港01_2
+      - 香港01_3
+      - 香港01_4
       - ucloud_alibaba
-      - 沪日IPLC
   - name: ✅ 自定义地址
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 广港_SS
-      - 广港转发_HKPRO
+      - 香港01_1
+      - 香港01_2
+      - 香港01_3
+      - 香港01_4
       - ucloud_alibaba
-      - 沪日IPLC
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 🚀 节点选择
-      - 广港_SS
-      - 广港转发_HKPRO
+      - 香港01_1
+      - 香港01_2
+      - 香港01_3
+      - 香港01_4
       - ucloud_alibaba
-      - 沪日IPLC
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 广港_SS
-      - 广港转发_HKPRO
+      - 香港01_1
+      - 香港01_2
+      - 香港01_3
+      - 香港01_4
       - ucloud_alibaba
-      - 沪日IPLC
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -127,10 +136,11 @@ proxy-groups:
       - 🎯 全球直连
       - 🚀 节点选择
       - ♻️ 自动选择
-      - 广港_SS
-      - 广港转发_HKPRO
+      - 香港01_1
+      - 香港01_2
+      - 香港01_3
+      - 香港01_4
       - ucloud_alibaba
-      - 沪日IPLC
 
 rules:
   - DOMAIN-KEYWORD,tencentcloud.com,✅ 自定义地址
