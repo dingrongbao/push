@@ -26,7 +26,6 @@ proxies:
   - {"name":"香港09_w","type":"ss","server":"120.232.235.198","port":46347,"password":"FfoHE4vgvx","cipher":"aes-256-gcm"}
   - {"name":"香港10_w","type":"ss","server":"120.232.235.199","port":46347,"password":"FfoHE4vgvx","cipher":"aes-256-gcm"}
   - {"name":"香港13_h","type":"ss","server":"120.232.235.202","port":46347,"password":"FfoHE4vgvx","cipher":"aes-256-gcm"}
-  - {"name":"香港14_h","type":"ss","server":"120.232.235.203","port":46347,"password":"FfoHE4vgvx","cipher":"aes-256-gcm"}
   - {"name":"香港07_h","type":"ss","server":"120.232.235.221","port":46347,"password":"FfoHE4vgvx","cipher":"aes-256-gcm"}
   - {"name":"香港08_h","type":"ss","server":"120.232.235.197","port":46347,"password":"FfoHE4vgvx","cipher":"aes-256-gcm"}
   - {"name":"ucloud_alibaba","type":"ss","server":"45.78.20.202.iprdp.net","port":13389,"password":"FfoHE4vgvx","cipher":"aes-256-gcm"}
@@ -41,7 +40,6 @@ proxy-groups:
       - 香港09_w
       - 香港10_w
       - 香港13_h
-      - 香港14_h
       - 香港07_h
       - 香港08_h
       - ucloud_alibaba
@@ -56,7 +54,6 @@ proxy-groups:
       - 香港09_w
       - 香港10_w
       - 香港13_h
-      - 香港14_h
       - 香港07_h
       - 香港08_h
       - ucloud_alibaba
@@ -71,7 +68,6 @@ proxy-groups:
       - 香港09_w
       - 香港10_w
       - 香港13_h
-      - 香港14_h
       - 香港07_h
       - 香港08_h
       - ucloud_alibaba
@@ -86,7 +82,6 @@ proxy-groups:
       - 香港09_w
       - 香港10_w
       - 香港13_h
-      - 香港14_h
       - 香港07_h
       - 香港08_h
       - ucloud_alibaba
@@ -101,7 +96,6 @@ proxy-groups:
       - 香港09_w
       - 香港10_w
       - 香港13_h
-      - 香港14_h
       - 香港07_h
       - 香港08_h
       - ucloud_alibaba
@@ -116,7 +110,6 @@ proxy-groups:
       - 香港09_w
       - 香港10_w
       - 香港13_h
-      - 香港14_h
       - 香港07_h
       - 香港08_h
       - ucloud_alibaba
@@ -131,7 +124,6 @@ proxy-groups:
       - 香港09_w
       - 香港10_w
       - 香港13_h
-      - 香港14_h
       - 香港07_h
       - 香港08_h
       - ucloud_alibaba
@@ -146,7 +138,6 @@ proxy-groups:
       - 香港09_w
       - 香港10_w
       - 香港13_h
-      - 香港14_h
       - 香港07_h
       - 香港08_h
       - ucloud_alibaba
@@ -177,7 +168,6 @@ proxy-groups:
       - 香港09_w
       - 香港10_w
       - 香港13_h
-      - 香港14_h
       - 香港07_h
       - 香港08_h
       - ucloud_alibaba
