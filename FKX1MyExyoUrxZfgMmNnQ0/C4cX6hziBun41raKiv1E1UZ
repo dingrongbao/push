@@ -1,7 +1,7 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2023-07-10 11:50:53
+# 创建时间：2023-07-11 11:54:38
 # 使用模版：v3
 # 节点数量：12
 # 节点类型：ss
@@ -76,7 +76,7 @@ proxy-groups:
     type: fallback
     url: http://www.google.com/generate_204
     interval: 30
-    tolerance: 300
+    tolerance: 100
     proxies:
       - 香港AC2
       - 香港AC1
