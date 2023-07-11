@@ -45,7 +45,7 @@ proxies:
   - {"name":"香港AC2","type":"ss","server":"hk-1.ac.laowanxiang.com","port":9735,"password":"FfoHE4vgvx","cipher":"aes-256-gcm"}
   - {"name":"香港AC1","type":"ss","server":"hk-2.ac.laowanxiang.com","port":9735,"password":"FfoHE4vgvx","cipher":"aes-256-gcm"}
   - {"name":"香港AC","type":"ss","server":"hk-pop-1.ac.laowanxiang.com","port":9735,"password":"FfoHE4vgvx","cipher":"aes-256-gcm"}
-  - {"name":"水墨深港—WG","type":"ss","server":"zfhk-fd4sf60ds5f4.inkiwike.com","port":9735,"password":"FfoHE4vgvx","cipher":"aes-256-gcm"}
+  - {"name":"水墨深港—WG","type":"ss","server":"zfhk-fd4sf60ds5f4.inkiwike.com","port":63389,"password":"FfoHE4vgvx","cipher":"aes-256-gcm"}
   - {"name":"香港11_w","type":"ss","server":"120.232.235.200","port":9735,"password":"FfoHE4vgvx","cipher":"aes-256-gcm"}
   - {"name":"香港12_w","type":"ss","server":"120.232.235.201","port":9735,"password":"FfoHE4vgvx","cipher":"aes-256-gcm"}
   - {"name":"香港09_w","type":"ss","server":"120.232.235.198","port":9735,"password":"FfoHE4vgvx","cipher":"aes-256-gcm"}
