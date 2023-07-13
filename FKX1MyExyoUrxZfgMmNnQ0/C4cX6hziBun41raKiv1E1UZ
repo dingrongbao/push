@@ -76,7 +76,7 @@ proxy-groups:
   - name: ♻️ 自动选择
     type: fallback
     url: http://www.google.com/generate_204
-    interval: 30
+    interval: 5
     tolerance: 100
     proxies:
       - 香港AC2
