@@ -58,6 +58,7 @@ proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
+      - ♻️ 节点轮询
       - ♻️ 自动选择
       - DIRECT
       - 香港AC2
@@ -77,6 +78,23 @@ proxy-groups:
     url: http://www.google.com/generate_204
     interval: 30
     tolerance: 100
+    proxies:
+      - 香港AC2
+      - 香港AC1
+      - 香港AC
+      - 水墨深港—WG
+      - 香港11_w
+      - 香港12_w
+      - 香港09_w
+      - 香港10_w
+      - 香港13_h
+      - 香港07_h
+      - 香港08_h
+      - ucloud_alibaba
+  - name: ♻️ 节点轮询
+    type: load-balance
+    url: http://www.google.com/generate_204
+    interval: 30
     proxies:
       - 香港AC2
       - 香港AC1
