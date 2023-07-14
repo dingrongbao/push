@@ -1,8 +1,8 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2023-07-11 11:54:38
-# 使用模版：v3
+# 创建时间：2023-07-14 18:42:06
+# 使用模版：V1
 # 节点数量：12
 # 节点类型：ss
 ####################################
@@ -79,6 +79,7 @@ proxy-groups:
     interval: 5
     tolerance: 100
     proxies:
+      - DIRECT
       - 香港AC2
       - 香港AC1
       - 香港AC
@@ -96,6 +97,7 @@ proxy-groups:
     url: http://www.google.com/generate_204
     interval: 30
     proxies:
+      - DIRECT
       - 香港AC2
       - 香港AC1
       - 香港AC
@@ -127,24 +129,6 @@ proxy-groups:
       - 香港08_h
       - ucloud_alibaba
   - name: 📲 电报信息
-    type: select
-    proxies:
-      - 🚀 节点选择
-      - ♻️ 自动选择
-      - 🎯 全球直连
-      - 香港AC2
-      - 香港AC1
-      - 香港AC
-      - 水墨深港—WG
-      - 香港11_w
-      - 香港12_w
-      - 香港09_w
-      - 香港10_w
-      - 香港13_h
-      - 香港07_h
-      - 香港08_h
-      - ucloud_alibaba
-  - name: ⚔️ CHATGPTD地址
     type: select
     proxies:
       - 🚀 节点选择
@@ -3259,7 +3243,6 @@ rules:
   - IP-CIDR6,2001:67c:4e8::/48,📲 电报信息,no-resolve
   - IP-CIDR6,2001:b28:f23d::/48,📲 电报信息,no-resolve
   - IP-CIDR6,2001:b28:f23f::/48,📲 电报信息,no-resolve
-  - DOMAIN-SUFFIX,openai.com,⚔️ CHATGPTD地址
   - DOMAIN-SUFFIX,v2rayse.com,🚀 节点选择
   - DOMAIN-SUFFIX,cff.pw,🚀 节点选择
   - DOMAIN-SUFFIX,vpnse.org,🚀 节点选择
