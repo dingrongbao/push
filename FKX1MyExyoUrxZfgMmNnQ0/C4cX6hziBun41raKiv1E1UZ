@@ -1,11 +1,12 @@
 ####################################
 # 创建者：XYZ
-# 客户端：Clash
-# 创建时间：2023-07-14 18:43:54
+# 客户端：Clash.Meta
+# 创建时间：2023-07-17 10:36:48
 # 使用模版：v1.1
-# 节点数量：12
-# 节点类型：ss
+# 节点数量：13
+# 节点类型：ss, vless
 ####################################
+# !!当前配置文件请使用基于 Clash.Meta 内核程序
 port: 7890
 socks-port: 7891
 mixed-port: 7892
@@ -54,6 +55,7 @@ proxies:
   - {"name":"香港07_h","type":"ss","server":"120.232.235.221","port":9735,"password":"FfoHE4vgvx","cipher":"aes-256-gcm"}
   - {"name":"香港08_h","type":"ss","server":"120.232.235.197","port":9735,"password":"FfoHE4vgvx","cipher":"aes-256-gcm"}
   - {"name":"ucloud_alibaba","type":"ss","server":"45.78.20.202.iprdp.net","port":13389,"password":"FfoHE4vgvx","cipher":"aes-256-gcm"}
+  - {"name":"|ckcE.love@xray.com","type":"vless","server":"47.243.57.171","port":43304,"udp":true,"uuid":"81c9d5fd-e253-4a50-c7e8-385f6daabb3a","tls":true,"servername":"www.nvidia.com","flow":"","network":"tcp","reality-opts":{"public-key":"qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY"},"client-fingerprint":"chrome"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -73,6 +75,7 @@ proxy-groups:
       - 香港07_h
       - 香港08_h
       - ucloud_alibaba
+      - '|ckcE.love@xray.com'
   - name: ♻️ 自动选择
     type: fallback
     url: http://www.google.com/generate_204
@@ -92,6 +95,7 @@ proxy-groups:
       - 香港07_h
       - 香港08_h
       - ucloud_alibaba
+      - '|ckcE.love@xray.com'
   - name: ♻️ 节点轮询
     type: load-balance
     url: http://www.google.com/generate_204
@@ -110,6 +114,7 @@ proxy-groups:
       - 香港07_h
       - 香港08_h
       - ucloud_alibaba
+      - '|ckcE.love@xray.com'
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -128,6 +133,7 @@ proxy-groups:
       - 香港07_h
       - 香港08_h
       - ucloud_alibaba
+      - '|ckcE.love@xray.com'
   - name: 📲 电报信息
     type: select
     proxies:
@@ -146,6 +152,7 @@ proxy-groups:
       - 香港07_h
       - 香港08_h
       - ucloud_alibaba
+      - '|ckcE.love@xray.com'
   - name: ✅ 自定义地址
     type: select
     proxies:
@@ -164,6 +171,7 @@ proxy-groups:
       - 香港07_h
       - 香港08_h
       - ucloud_alibaba
+      - '|ckcE.love@xray.com'
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -182,6 +190,7 @@ proxy-groups:
       - 香港07_h
       - 香港08_h
       - ucloud_alibaba
+      - '|ckcE.love@xray.com'
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -200,6 +209,7 @@ proxy-groups:
       - 香港07_h
       - 香港08_h
       - ucloud_alibaba
+      - '|ckcE.love@xray.com'
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -234,6 +244,7 @@ proxy-groups:
       - 香港07_h
       - 香港08_h
       - ucloud_alibaba
+      - '|ckcE.love@xray.com'
 
 rules:
   - DOMAIN-KEYWORD,tencentcloud.com,✅ 自定义地址
