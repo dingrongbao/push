@@ -97,7 +97,6 @@ proxy-groups:
     url: http://www.google.com/generate_204
     interval: 30
     proxies:
-      - DIRECT
       - 香港AC2
       - 香港AC1
       - 香港AC
