@@ -1,8 +1,8 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2023-08-08 12:54:11
-# 使用模版：v1.2
+# 创建时间：2023-08-08 13:04:45
+# 使用模版：v2
 # 节点数量：14
 # 节点类型：ss, ssr
 ####################################
@@ -82,6 +82,7 @@ proxy-groups:
     interval: 5
     tolerance: 100
     proxies:
+      - DIRECT
       - 香港AC2
       - 香港AC1
       - 香港AC
@@ -101,6 +102,7 @@ proxy-groups:
     url: http://www.google.com/generate_204
     interval: 30
     proxies:
+      - DIRECT
       - 香港AC2
       - 香港AC1
       - 香港AC
@@ -116,6 +118,26 @@ proxy-groups:
       - 新加坡 IEPL [06] [Premium]
       - ucloud_alibaba
   - name: 🌍 国外媒体
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - ♻️ 自动选择
+      - 🎯 全球直连
+      - 香港AC2
+      - 香港AC1
+      - 香港AC
+      - 水墨深港—WG
+      - 香港09_w
+      - 香港10_w
+      - 香港11_w
+      - 香港12_w
+      - 香港07_w
+      - 香港08_w
+      - 香港05_w
+      - 香港06_w
+      - 新加坡 IEPL [06] [Premium]
+      - ucloud_alibaba
+  - name: 🌍 奈非视频
     type: select
     proxies:
       - 🚀 节点选择
@@ -3138,21 +3160,21 @@ rules:
   - DOMAIN-SUFFIX,tvb.com,🌍 国外媒体
   - DOMAIN-KEYWORD,apiproxy-device-prod-nlb-,🌍 国外媒体
   - DOMAIN-KEYWORD,dualstack.apiproxy-,🌍 国外媒体
-  - DOMAIN-KEYWORD,netflixdnstest,🌍 国外媒体
-  - DOMAIN,netflix.com.edgesuite.net,🌍 国外媒体
-  - DOMAIN-SUFFIX,fast.com,🌍 国外媒体
-  - DOMAIN-SUFFIX,netflix.com,🌍 国外媒体
-  - DOMAIN-SUFFIX,netflix.net,🌍 国外媒体
-  - DOMAIN-SUFFIX,netflixdnstest0.com,🌍 国外媒体
-  - DOMAIN-SUFFIX,netflixdnstest1.com,🌍 国外媒体
-  - DOMAIN-SUFFIX,netflixdnstest2.com,🌍 国外媒体
-  - DOMAIN-SUFFIX,netflixdnstest3.com,🌍 国外媒体
-  - DOMAIN-SUFFIX,netflixdnstest4.com,🌍 国外媒体
-  - DOMAIN-SUFFIX,netflixdnstest5.com,🌍 国外媒体
-  - DOMAIN-SUFFIX,netflixdnstest6.com,🌍 国外媒体
-  - DOMAIN-SUFFIX,netflixdnstest7.com,🌍 国外媒体
-  - DOMAIN-SUFFIX,netflixdnstest8.com,🌍 国外媒体
-  - DOMAIN-SUFFIX,netflixdnstest9.com,🌍 国外媒体
+  - DOMAIN-KEYWORD,netflixdnstest,🌍 奈非视频
+  - DOMAIN,netflix.com.edgesuite.net,🌍 奈非视频
+  - DOMAIN-SUFFIX,fast.com, 🌍 奈非视频
+  - DOMAIN-SUFFIX,netflix.com,🌍 奈非视频
+  - DOMAIN-SUFFIX,netflix.net,🌍 奈非视频
+  - DOMAIN-SUFFIX,netflixdnstest0.com,🌍 奈非视频
+  - DOMAIN-SUFFIX,netflixdnstest1.com,🌍 奈非视频
+  - DOMAIN-SUFFIX,netflixdnstest2.com,🌍 奈非视频
+  - DOMAIN-SUFFIX,netflixdnstest3.com,🌍 奈非视频
+  - DOMAIN-SUFFIX,netflixdnstest4.com,🌍 奈非视频
+  - DOMAIN-SUFFIX,netflixdnstest5.com,🌍 奈非视频
+  - DOMAIN-SUFFIX,netflixdnstest6.com,🌍 奈非视频
+  - DOMAIN-SUFFIX,netflixdnstest7.com,🌍 奈非视频
+  - DOMAIN-SUFFIX,netflixdnstest8.com,🌍 奈非视频
+  - DOMAIN-SUFFIX,netflixdnstest9.com,🌍 奈非视频
   - DOMAIN-SUFFIX,nflxext.com,🌍 国外媒体
   - DOMAIN-SUFFIX,nflximg.com,🌍 国外媒体
   - DOMAIN-SUFFIX,nflximg.net,🌍 国外媒体
