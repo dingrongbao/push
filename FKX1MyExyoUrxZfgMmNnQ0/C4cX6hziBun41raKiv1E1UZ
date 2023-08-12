@@ -1,8 +1,8 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2023-08-08 13:04:45
-# 使用模版：v2
+# 创建时间：2023-08-12 22:27:46
+# 使用模版：V2.2
 # 节点数量：14
 # 节点类型：ss, ssr
 ####################################
@@ -155,6 +155,26 @@ proxy-groups:
       - 香港06_w
       - 新加坡 IEPL [06] [Premium]
       - ucloud_alibaba
+  - name: 🌍 CHATGPT
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - ♻️ 自动选择
+      - 🎯 全球直连
+      - 香港AC2
+      - 香港AC1
+      - 香港AC
+      - 水墨深港—WG
+      - 香港09_w
+      - 香港10_w
+      - 香港11_w
+      - 香港12_w
+      - 香港07_w
+      - 香港08_w
+      - 香港05_w
+      - 香港06_w
+      - 新加坡 IEPL [06] [Premium]
+      - ucloud_alibaba
   - name: 📲 电报信息
     type: select
     proxies:
@@ -273,6 +293,13 @@ proxy-groups:
       - ucloud_alibaba
 
 rules:
+  - DOMAIN-SUFFIX,openai.com,🌍 CHATGPT
+  - DOMAIN-SUFFIX,azureedge.net,🌍 CHATGPT
+  - DOMAIN-SUFFIX,intercom.io,🌍 CHATGPT
+  - DOMAIN-SUFFIX,stripe.com,🌍 CHATGPT
+  - DOMAIN-SUFFIX,intercomcdn.com,🌍 CHATGPT
+  - DOMAIN-SUFFIX,stripe.network,🌍 CHATGPT
+  - DOMAIN-SUFFIX,stripe.com,🌍 CHATGPT
   - DOMAIN-KEYWORD,tencentcloud.com,✅ 自定义地址
   - DOMAIN-KEYWORD,hostloc.com,✅ 自定义地址
   - DOMAIN-KEYWORD,cex.io,✅ 自定义地址
