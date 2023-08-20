@@ -1,8 +1,8 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2023-08-20 10:24:42
-# 使用模版：v3.0
+# 创建时间：2023-08-20 10:34:59
+# 使用模版：v3.2
 # 节点数量：15
 # 节点类型：ss, ssr
 ####################################
@@ -107,6 +107,7 @@ proxy-groups:
       - 新加坡 IEPL_ac
       - 新加坡 IEPL_05
       - 新加坡 IEPL_06
+      - ucloud_alibaba
   - name: ♻️ 节点轮询
     type: load-balance
     url: http://www.google.com/generate_204
@@ -295,24 +296,9 @@ proxy-groups:
   - name: 🐟 漏网之鱼
     type: select
     proxies:
-      - 🎯 全球直连
       - 🚀 节点选择
+      - 🎯 全球直连
       - ♻️ 自动选择
-      - 香港AC2
-      - 香港AC1
-      - 香港AC
-      - 香港09_w
-      - 香港10_w
-      - 香港11_w
-      - 香港12_w
-      - 香港07_w
-      - 香港08_w
-      - 香港05_w
-      - 香港06_w
-      - 新加坡 IEPL_ac
-      - 新加坡 IEPL_05
-      - 新加坡 IEPL_06
-      - ucloud_alibaba
 
 rules:
   - DOMAIN-SUFFIX,openai.com,🌍 CHATGPT
