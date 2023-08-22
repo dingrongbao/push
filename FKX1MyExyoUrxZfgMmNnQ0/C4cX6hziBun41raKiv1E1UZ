@@ -81,7 +81,7 @@ proxy-groups:
   - name: ♻️ 自动选择
     type: fallback
     url: http://www.google.com/generate_204
-    interval: 5
+    interval: 60
     proxies:
       - 香港AC2
       - 香港AC1
@@ -101,7 +101,7 @@ proxy-groups:
   - name: ♻️ 新加坡自动选择
     type: fallback
     url: http://www.google.com/generate_204
-    interval: 5
+    interval: 60
     tolerance: 100
     proxies:
       - 新加坡 IEPL_ac
@@ -111,7 +111,7 @@ proxy-groups:
   - name: ♻️ 节点轮询
     type: load-balance
     url: http://www.google.com/generate_204
-    interval: 30
+    interval: 60
     proxies:
       - 香港AC2
       - 香港AC1
