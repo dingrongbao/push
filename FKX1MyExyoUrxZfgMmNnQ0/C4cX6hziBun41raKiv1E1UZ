@@ -44,7 +44,7 @@ dns:
 proxies:
   - {"name":"香港AC2","type":"ss","server":"hk-1.ac.laowanxiang.com","port":12429,"password":"FfoHE4vgvx","cipher":"aes-256-gcm"}
   - {"name":"香港AC1","type":"ss","server":"hk-2.ac.laowanxiang.com","port":12429,"password":"FfoHE4vgvx","cipher":"aes-256-gcm"}
-  - {"name":"水墨转发","type":"ss","server":"huawei-hk01-fd54f5.inkiwike.com","port":12429,"password":"FfoHE4vgvx","cipher":"aes-256-gcm"}
+  - {"name":"水墨>>","type":"ss","server":"huawei-hk01-fd54f5.inkiwike.com","port":12429,"password":"FfoHE4vgvx","cipher":"aes-256-gcm"}
   - {"name":"香港AC","type":"ss","server":"hk-pop-1.ac.laowanxiang.com","port":12429,"password":"FfoHE4vgvx","cipher":"aes-256-gcm"}
   - {"name":"香港09_w","type":"ss","server":"183.240.221.200","port":12429,"password":"FfoHE4vgvx","cipher":"aes-256-gcm"}
   - {"name":"香港10_w","type":"ss","server":"183.240.221.201","port":12429,"password":"FfoHE4vgvx","cipher":"aes-256-gcm"}
@@ -68,7 +68,7 @@ proxy-groups:
       - ♻️ 节点轮询
       - 香港AC2
       - 香港AC1
-      - 水墨转发
+      - 水墨>>
       - 香港AC
       - 香港09_w
       - 香港10_w
@@ -91,7 +91,7 @@ proxy-groups:
     proxies:
       - 香港AC2
       - 香港AC1
-      - 水墨转发
+      - 水墨>>
       - 香港AC
       - 香港09_w
       - 香港10_w
@@ -120,7 +120,7 @@ proxy-groups:
     proxies:
       - 香港AC2
       - 香港AC1
-      - 水墨转发
+      - 水墨>>
       - 香港AC
       - 香港09_w
       - 香港10_w
@@ -144,7 +144,7 @@ proxy-groups:
       - 🎯 全球直连
       - 香港AC2
       - 香港AC1
-      - 水墨转发
+      - 水墨>>
       - 香港AC
       - 香港09_w
       - 香港10_w
@@ -169,7 +169,7 @@ proxy-groups:
       - 🎯 全球直连
       - 香港AC2
       - 香港AC1
-      - 水墨转发
+      - 水墨>>
       - 香港AC
       - 香港09_w
       - 香港10_w
@@ -194,7 +194,7 @@ proxy-groups:
       - 🎯 全球直连
       - 香港AC2
       - 香港AC1
-      - 水墨转发
+      - 水墨>>
       - 香港AC
       - 香港09_w
       - 香港10_w
@@ -218,7 +218,7 @@ proxy-groups:
       - 🎯 全球直连
       - 香港AC2
       - 香港AC1
-      - 水墨转发
+      - 水墨>>
       - 香港AC
       - 香港09_w
       - 香港10_w
@@ -242,7 +242,7 @@ proxy-groups:
       - 🎯 全球直连
       - 香港AC2
       - 香港AC1
-      - 水墨转发
+      - 水墨>>
       - 香港AC
       - 香港09_w
       - 香港10_w
@@ -266,7 +266,7 @@ proxy-groups:
       - 🚀 节点选择
       - 香港AC2
       - 香港AC1
-      - 水墨转发
+      - 水墨>>
       - 香港AC
       - 香港09_w
       - 香港10_w
@@ -290,7 +290,7 @@ proxy-groups:
       - 🎯 全球直连
       - 香港AC2
       - 香港AC1
-      - 水墨转发
+      - 水墨>>
       - 香港AC
       - 香港09_w
       - 香港10_w
