@@ -42,31 +42,31 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"香港AC","type":"ss","server":"hk-pop-1.ac.laowanxiang.com","port":12429,"password":"FfoHE4vgvx","cipher":"aes-256-gcm"}
-  - {"name":"香港AC2","type":"ss","server":"hk-1.ac.laowanxiang.com","port":12429,"password":"FfoHE4vgvx","cipher":"aes-256-gcm"}
-  - {"name":"香港AC1","type":"ss","server":"hk-2.ac.laowanxiang.com","port":12429,"password":"FfoHE4vgvx","cipher":"aes-256-gcm"}
+  - {"name":"香港AC2","type":"ssr","server":"hk-1.ac.laowanxiang.com","port":12124,"password":"iXd1t3QvFpwxGBKg","cipher":"chacha20-ietf","obfs":"plain","protocol":"origin"}
+  - {"name":"香港AC1","type":"ss","server":"hk-2.ac.laowanxiang.com","port":12124,"password":"iXd1t3QvFpwxGBKg","cipher":"aes-256-gcm"}
   - {"name":"水墨转发","type":"ss","server":"huawei-hk01-fd54f5.inkiwike.com","port":12429,"password":"FfoHE4vgvx","cipher":"aes-256-gcm"}
   - {"name":"ucloud_alibaba","type":"ss","server":"45.78.20.202.iprdp.net","port":13389,"password":"FfoHE4vgvx","cipher":"aes-256-gcm"}
-  - {"name":"香港09_w","type":"ss","server":"183.240.221.216","port":12429,"password":"FfoHE4vgvx","cipher":"aes-256-gcm"}
-  - {"name":"香港10_w","type":"ss","server":"183.240.221.217","port":12429,"password":"FfoHE4vgvx","cipher":"aes-256-gcm"}
-  - {"name":"香港11_w","type":"ss","server":"183.240.221.218","port":12429,"password":"FfoHE4vgvx","cipher":"aes-256-gcm"}
-  - {"name":"香港12_w","type":"ss","server":"183.240.221.219","port":12429,"password":"FfoHE4vgvx","cipher":"aes-256-gcm"}
-  - {"name":"香港07_w","type":"ss","server":"183.240.221.214","port":12429,"password":"FfoHE4vgvx","cipher":"aes-256-gcm"}
-  - {"name":"香港08_w","type":"ss","server":"183.240.221.215","port":12429,"password":"FfoHE4vgvx","cipher":"aes-256-gcm"}
-  - {"name":"香港05_w","type":"ss","server":"183.240.221.212","port":12429,"password":"FfoHE4vgvx","cipher":"aes-256-gcm"}
-  - {"name":"香港06_w","type":"ss","server":"183.240.221.213","port":12429,"password":"FfoHE4vgvx","cipher":"aes-256-gcm"}
-  - {"name":"日本AC01","type":"ssr","server":"jp-1.ac.laowanxiang.com","port":12429,"password":"YuIEn2MlGav5hQjB","cipher":"chacha20-ietf","obfs":"plain","protocol":"origin"}
-  - {"name":"日本AC02","type":"ssr","server":"jp-2.ac.laowanxiang.com","port":12429,"password":"YuIEn2MlGav5hQjB","cipher":"chacha20-ietf","obfs":"plain","protocol":"origin"}
-  - {"name":"新加坡 IEPL_ac","type":"ssr","server":"sg-1.ac.laowanxiang.com","port":12429,"password":"YuIEn2MlGav5hQjB","cipher":"chacha20-ietf","obfs":"plain","protocol":"origin"}
-  - {"name":"新加坡 IEPL_05","type":"ssr","server":"183.240.221.220","port":12429,"password":"YuIEn2MlGav5hQjB","cipher":"chacha20-ietf","obfs":"plain","protocol":"origin"}
-  - {"name":"新加坡 IEPL_06","type":"ssr","server":"183.240.221.221","port":12429,"password":"YuIEn2MlGav5hQjB","cipher":"chacha20-ietf","obfs":"plain","protocol":"origin"}
+  - {"name":"香港09_w","type":"ss","server":"183.240.221.216","port":12124,"password":"iXd1t3QvFpwxGBKg","cipher":"aes-256-gcm"}
+  - {"name":"香港10_w","type":"ss","server":"183.240.221.217","port":12124,"password":"iXd1t3QvFpwxGBKg","cipher":"aes-256-gcm"}
+  - {"name":"香港11_w","type":"ss","server":"183.240.221.218","port":12124,"password":"iXd1t3QvFpwxGBKg","cipher":"aes-256-gcm"}
+  - {"name":"香港12_w","type":"ss","server":"183.240.221.219","port":12124,"password":"iXd1t3QvFpwxGBKg","cipher":"aes-256-gcm"}
+  - {"name":"香港07_w","type":"ss","server":"183.240.221.214","port":12124,"password":"iXd1t3QvFpwxGBKg","cipher":"aes-256-gcm"}
+  - {"name":"香港08_w","type":"ss","server":"183.240.221.215","port":12124,"password":"iXd1t3QvFpwxGBKg","cipher":"aes-256-gcm"}
+  - {"name":"香港05_w","type":"ss","server":"183.240.221.212","port":12124,"password":"iXd1t3QvFpwxGBKg","cipher":"aes-256-gcm"}
+  - {"name":"香港06_w","type":"ss","server":"183.240.221.213","port":12124,"password":"iXd1t3QvFpwxGBKg","cipher":"aes-256-gcm"}
+  - {"name":"日本AC01","type":"ssr","server":"jp-1.ac.laowanxiang.com","port":12124,"password":"iXd1t3QvFpwxGBKg","cipher":"chacha20-ietf","obfs":"plain","protocol":"origin"}
+  - {"name":"日本AC02","type":"ssr","server":"jp-2.ac.laowanxiang.com","port":12124,"password":"iXd1t3QvFpwxGBKg","cipher":"chacha20-ietf","obfs":"plain","protocol":"origin"}
+  - {"name":"新加坡 IEPL_ac","type":"ssr","server":"sg-1.ac.laowanxiang.com","port":12124,"password":"iXd1t3QvFpwxGBKg","cipher":"chacha20-ietf","obfs":"plain","protocol":"origin"}
+  - {"name":"新加坡 IEPL_05","type":"ssr","server":"183.240.221.220","port":12124,"password":"iXd1t3QvFpwxGBKg","cipher":"chacha20-ietf","obfs":"plain","protocol":"origin"}
+  - {"name":"新加坡 IEPL_06","type":"ssr","server":"183.240.221.221","port":12124,"password":"iXd1t3QvFpwxGBKg","cipher":"chacha20-ietf","obfs":"plain","protocol":"origin"}
+  - {"name":"hk-ss","type":"ss","server":"45.78.20.202","port":3389,"password":"FfoHE4vgvx","cipher":"aes-256-gcm"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
+      - ♻️ 自动选择链式代理
       - ♻️ 自动选择
       - ♻️ 节点轮询
-      - 香港AC
       - 香港AC2
       - 香港AC1
       - 水墨转发
@@ -84,12 +84,17 @@ proxy-groups:
       - 新加坡 IEPL_ac
       - 新加坡 IEPL_05
       - 新加坡 IEPL_06
+      - hk-ss
+  - name: ♻️ 自动选择链式代理
+    type: relay
+    proxies:
+      - ♻️ 自动选择
+      - hk-ss
   - name: ♻️ 自动选择
     type: fallback
     url: http://www.google.com/generate_204
     interval: 60
     proxies:
-      - 香港AC
       - 香港AC2
       - 香港AC1
       - 水墨转发
@@ -113,6 +118,20 @@ proxy-groups:
     interval: 60
     tolerance: 100
     proxies:
+      - 香港AC2
+      - 香港AC1
+      - 水墨转发
+      - ucloud_alibaba
+      - 香港09_w
+      - 香港10_w
+      - 香港11_w
+      - 香港12_w
+      - 香港07_w
+      - 香港08_w
+      - 香港05_w
+      - 香港06_w
+      - 日本AC01
+      - 日本AC02
       - 新加坡 IEPL_ac
       - 新加坡 IEPL_05
       - 新加坡 IEPL_06
@@ -120,8 +139,7 @@ proxy-groups:
     type: load-balance
     url: http://www.google.com/generate_204
     interval: 30
-    proxies:
-      - 香港AC
+    proxies: 
       - 香港AC2
       - 香港AC1
       - 水墨转发
@@ -145,8 +163,7 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 香港AC
-      - 香港AC2
+     - 香港AC2
       - 香港AC1
       - 水墨转发
       - ucloud_alibaba
@@ -170,7 +187,6 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 香港AC
       - 香港AC2
       - 香港AC1
       - 水墨转发
@@ -195,7 +211,6 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 香港AC
       - 香港AC2
       - 香港AC1
       - 水墨转发
@@ -219,7 +234,6 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 香港AC
       - 香港AC2
       - 香港AC1
       - 水墨转发
@@ -236,14 +250,13 @@ proxy-groups:
       - 日本AC02
       - 新加坡 IEPL_ac
       - 新加坡 IEPL_05
-      - 新加坡 IEPL_06
+      - 新加坡 IEPL_06    
   - name: ✅ 自定义地址
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 香港AC
       - 香港AC2
       - 香港AC1
       - 水墨转发
@@ -267,48 +280,12 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 🚀 节点选择
-      - 香港AC
-      - 香港AC2
-      - 香港AC1
-      - 水墨转发
-      - ucloud_alibaba
-      - 香港09_w
-      - 香港10_w
-      - 香港11_w
-      - 香港12_w
-      - 香港07_w
-      - 香港08_w
-      - 香港05_w
-      - 香港06_w
-      - 日本AC01
-      - 日本AC02
-      - 新加坡 IEPL_ac
-      - 新加坡 IEPL_05
-      - 新加坡 IEPL_06
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 香港AC
-      - 香港AC2
-      - 香港AC1
-      - 水墨转发
-      - ucloud_alibaba
-      - 香港09_w
-      - 香港10_w
-      - 香港11_w
-      - 香港12_w
-      - 香港07_w
-      - 香港08_w
-      - 香港05_w
-      - 香港06_w
-      - 日本AC01
-      - 日本AC02
-      - 新加坡 IEPL_ac
-      - 新加坡 IEPL_05
-      - 新加坡 IEPL_06
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -331,6 +308,23 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 香港AC2
+      - 香港AC1
+      - 水墨转发
+      - ucloud_alibaba
+      - 香港09_w
+      - 香港10_w
+      - 香港11_w
+      - 香港12_w
+      - 香港07_w
+      - 香港08_w
+      - 香港05_w
+      - 香港06_w
+      - 日本AC01
+      - 日本AC02
+      - 新加坡 IEPL_ac
+      - 新加坡 IEPL_05
+      - 新加坡 IEPL_06
 
 rules:
   - DOMAIN-SUFFIX,openai.com,🌍 CHATGPT
