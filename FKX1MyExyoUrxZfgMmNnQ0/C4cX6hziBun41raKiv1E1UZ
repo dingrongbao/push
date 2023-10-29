@@ -1,10 +1,10 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2023-10-28 16:12:07
-# 使用模版：V4.1
+# 创建时间：2023-10-29 16:15:11
+# 使用模版：链式代理v1
 # 节点数量：18
-# 节点类型：ss, ssr
+# 节点类型：ssr, ss
 ####################################
 port: 7890
 socks-port: 7891
@@ -124,7 +124,7 @@ proxy-groups:
     type: load-balance
     url: http://www.google.com/generate_204
     interval: 30
-    proxies: 
+    proxies:
       - 香港AC2
       - 香港AC1
       - 水墨转发
@@ -235,7 +235,7 @@ proxy-groups:
       - 日本AC02
       - 新加坡 IEPL_ac
       - 新加坡 IEPL_05
-      - 新加坡 IEPL_06    
+      - 新加坡 IEPL_06
   - name: ✅ 自定义地址
     type: select
     proxies:
@@ -265,12 +265,46 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 🚀 节点选择
+      - 香港AC2
+      - 香港AC1
+      - 水墨转发
+      - ucloud_alibaba
+      - 香港09_w
+      - 香港10_w
+      - 香港11_w
+      - 香港12_w
+      - 香港07_w
+      - 香港08_w
+      - 香港05_w
+      - 香港06_w
+      - 日本AC01
+      - 日本AC02
+      - 新加坡 IEPL_ac
+      - 新加坡 IEPL_05
+      - 新加坡 IEPL_06
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 香港AC2
+      - 香港AC1
+      - 水墨转发
+      - ucloud_alibaba
+      - 香港09_w
+      - 香港10_w
+      - 香港11_w
+      - 香港12_w
+      - 香港07_w
+      - 香港08_w
+      - 香港05_w
+      - 香港06_w
+      - 日本AC01
+      - 日本AC02
+      - 新加坡 IEPL_ac
+      - 新加坡 IEPL_05
+      - 新加坡 IEPL_06
   - name: 🎯 全球直连
     type: select
     proxies:
