@@ -117,20 +117,6 @@ proxy-groups:
     interval: 60
     tolerance: 100
     proxies:
-      - 香港AC2
-      - 香港AC1
-      - 水墨转发
-      - ucloud_alibaba
-      - 香港09_w
-      - 香港10_w
-      - 香港11_w
-      - 香港12_w
-      - 香港07_w
-      - 香港08_w
-      - 香港05_w
-      - 香港06_w
-      - 日本AC01
-      - 日本AC02
       - 新加坡 IEPL_ac
       - 新加坡 IEPL_05
       - 新加坡 IEPL_06
