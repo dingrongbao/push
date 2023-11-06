@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2023-10-29 16:15:11
+# 创建时间：2023-11-06 20:36:29
 # 使用模版：链式代理v1
-# 节点数量：18
+# 节点数量：19
 # 节点类型：ssr, ss
 ####################################
 port: 7890
@@ -44,6 +44,7 @@ dns:
 proxies:
   - {"name":"香港AC2","type":"ssr","server":"hk-1.ac.laowanxiang.com","port":12124,"password":"iXd1t3QvFpwxGBKg","cipher":"chacha20-ietf","obfs":"plain","protocol":"origin"}
   - {"name":"香港AC1","type":"ssr","server":"hk-1.ac.laowanxiang.com","port":12124,"password":"iXd1t3QvFpwxGBKg","cipher":"chacha20-ietf","obfs":"plain","protocol":"origin"}
+  - {"name":"华为iplc","type":"ss","server":"szhk-natfd5s4f.inkiwike.com","port":16001,"password":"FfoHE4vgvx","cipher":"aes-256-gcm"}
   - {"name":"水墨转发","type":"ss","server":"huawei-hk01-fd54f5.inkiwike.com","port":12429,"password":"FfoHE4vgvx","cipher":"aes-256-gcm"}
   - {"name":"ucloud_alibaba","type":"ss","server":"45.78.20.202.iprdp.net","port":13389,"password":"FfoHE4vgvx","cipher":"aes-256-gcm"}
   - {"name":"香港09_w","type":"ssr","server":"hk-1.ac.laowanxiang.com","port":12124,"password":"iXd1t3QvFpwxGBKg","cipher":"chacha20-ietf","obfs":"plain","protocol":"origin"}
@@ -69,6 +70,7 @@ proxy-groups:
       - ♻️ 节点轮询
       - 香港AC2
       - 香港AC1
+      - 华为iplc
       - 水墨转发
       - ucloud_alibaba
       - 香港09_w
@@ -84,6 +86,7 @@ proxy-groups:
       - 新加坡 IEPL_ac
       - 新加坡 IEPL_05
       - 新加坡 IEPL_06
+      - hk-ss
   - name: ♻️ 自动选择链式代理
     type: relay
     proxies:
@@ -96,6 +99,7 @@ proxy-groups:
     proxies:
       - 香港AC2
       - 香港AC1
+      - 华为iplc
       - 水墨转发
       - ucloud_alibaba
       - 香港09_w
@@ -111,6 +115,7 @@ proxy-groups:
       - 新加坡 IEPL_ac
       - 新加坡 IEPL_05
       - 新加坡 IEPL_06
+      - hk-ss
   - name: ♻️ 新加坡自动选择
     type: fallback
     url: http://www.google.com/generate_204
@@ -120,6 +125,7 @@ proxy-groups:
       - 新加坡 IEPL_ac
       - 新加坡 IEPL_05
       - 新加坡 IEPL_06
+      - hk-ss
   - name: ♻️ 节点轮询
     type: load-balance
     url: http://www.google.com/generate_204
@@ -127,6 +133,7 @@ proxy-groups:
     proxies:
       - 香港AC2
       - 香港AC1
+      - 华为iplc
       - 水墨转发
       - ucloud_alibaba
       - 香港09_w
@@ -142,6 +149,7 @@ proxy-groups:
       - 新加坡 IEPL_ac
       - 新加坡 IEPL_05
       - 新加坡 IEPL_06
+      - hk-ss
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -150,6 +158,7 @@ proxy-groups:
       - 🎯 全球直连
       - 香港AC2
       - 香港AC1
+      - 华为iplc
       - 水墨转发
       - ucloud_alibaba
       - 香港09_w
@@ -165,6 +174,7 @@ proxy-groups:
       - 新加坡 IEPL_ac
       - 新加坡 IEPL_05
       - 新加坡 IEPL_06
+      - hk-ss
   - name: 🌍 奈非视频
     type: select
     proxies:
@@ -174,6 +184,7 @@ proxy-groups:
       - 🎯 全球直连
       - 香港AC2
       - 香港AC1
+      - 华为iplc
       - 水墨转发
       - ucloud_alibaba
       - 香港09_w
@@ -189,6 +200,7 @@ proxy-groups:
       - 新加坡 IEPL_ac
       - 新加坡 IEPL_05
       - 新加坡 IEPL_06
+      - hk-ss
   - name: 🌍 CHATGPT
     type: select
     proxies:
@@ -198,6 +210,7 @@ proxy-groups:
       - 🎯 全球直连
       - 香港AC2
       - 香港AC1
+      - 华为iplc
       - 水墨转发
       - ucloud_alibaba
       - 香港09_w
@@ -213,6 +226,7 @@ proxy-groups:
       - 新加坡 IEPL_ac
       - 新加坡 IEPL_05
       - 新加坡 IEPL_06
+      - hk-ss
   - name: 📲 电报信息
     type: select
     proxies:
@@ -221,6 +235,7 @@ proxy-groups:
       - 🎯 全球直连
       - 香港AC2
       - 香港AC1
+      - 华为iplc
       - 水墨转发
       - ucloud_alibaba
       - 香港09_w
@@ -236,6 +251,7 @@ proxy-groups:
       - 新加坡 IEPL_ac
       - 新加坡 IEPL_05
       - 新加坡 IEPL_06
+      - hk-ss
   - name: ✅ 自定义地址
     type: select
     proxies:
@@ -244,6 +260,7 @@ proxy-groups:
       - 🎯 全球直连
       - 香港AC2
       - 香港AC1
+      - 华为iplc
       - 水墨转发
       - ucloud_alibaba
       - 香港09_w
@@ -259,6 +276,7 @@ proxy-groups:
       - 新加坡 IEPL_ac
       - 新加坡 IEPL_05
       - 新加坡 IEPL_06
+      - hk-ss
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -267,6 +285,7 @@ proxy-groups:
       - 🚀 节点选择
       - 香港AC2
       - 香港AC1
+      - 华为iplc
       - 水墨转发
       - ucloud_alibaba
       - 香港09_w
@@ -282,6 +301,7 @@ proxy-groups:
       - 新加坡 IEPL_ac
       - 新加坡 IEPL_05
       - 新加坡 IEPL_06
+      - hk-ss
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -290,6 +310,7 @@ proxy-groups:
       - 🎯 全球直连
       - 香港AC2
       - 香港AC1
+      - 华为iplc
       - 水墨转发
       - ucloud_alibaba
       - 香港09_w
@@ -305,6 +326,7 @@ proxy-groups:
       - 新加坡 IEPL_ac
       - 新加坡 IEPL_05
       - 新加坡 IEPL_06
+      - hk-ss
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -329,6 +351,7 @@ proxy-groups:
       - ♻️ 自动选择
       - 香港AC2
       - 香港AC1
+      - 华为iplc
       - 水墨转发
       - ucloud_alibaba
       - 香港09_w
@@ -344,6 +367,7 @@ proxy-groups:
       - 新加坡 IEPL_ac
       - 新加坡 IEPL_05
       - 新加坡 IEPL_06
+      - hk-ss
 
 rules:
   - DOMAIN-SUFFIX,openai.com,🌍 CHATGPT
