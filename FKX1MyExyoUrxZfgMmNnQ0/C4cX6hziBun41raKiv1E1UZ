@@ -1,8 +1,8 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2023-11-14 07:36:53
-# 使用模版：链式代理v1
+# 创建时间：2023-11-14 07:38:50
+# 使用模版：V4.1
 # 节点数量：11
 # 节点类型：ss, ssr
 ####################################
@@ -57,7 +57,6 @@ proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
-      - ♻️ 自动选择链式代理
       - ♻️ 自动选择
       - ♻️ 节点轮询
       - 香港AC2
@@ -71,11 +70,6 @@ proxy-groups:
       - 新加坡 IEPL_ac
       - 新加坡 IEPL_05
       - 新加坡 IEPL_06
-  - name: ♻️ 自动选择链式代理
-    type: relay
-    proxies:
-      - ♻️ 自动选择
-      - hk-ss
   - name: ♻️ 自动选择
     type: fallback
     url: http://www.google.com/generate_204
@@ -98,14 +92,6 @@ proxy-groups:
     interval: 60
     tolerance: 100
     proxies:
-      - 香港AC2
-      - 香港AC1_1
-      - 香港AC1_2
-      - 华为iplc
-      - 水墨转发
-      - ucloud_alibaba
-      - 日本AC01
-      - 日本AC02
       - 新加坡 IEPL_ac
       - 新加坡 IEPL_05
       - 新加坡 IEPL_06
@@ -268,17 +254,6 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 香港AC2
-      - 香港AC1_1
-      - 香港AC1_2
-      - 华为iplc
-      - 水墨转发
-      - ucloud_alibaba
-      - 日本AC01
-      - 日本AC02
-      - 新加坡 IEPL_ac
-      - 新加坡 IEPL_05
-      - 新加坡 IEPL_06
 
 rules:
   - DOMAIN-SUFFIX,openai.com,🌍 CHATGPT
