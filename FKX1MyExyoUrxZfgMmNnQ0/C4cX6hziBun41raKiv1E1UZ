@@ -42,9 +42,9 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"香港AC2","type":"ss","server":"hk-2.ac.laowanxiang.com","port":12124,"password":"FfoHE4vgvx","cipher":"aes-256-gcm"}
-  - {"name":"香港AC1_1","type":"ss","server":"hk-2.ac.laowanxiang.com","port":12124,"password":"FfoHE4vgvx","cipher":"aes-256-gcm"}
-  - {"name":"香港AC1_2","type":"ss","server":"hk-pop-1.ac.laowanxiang.com","port":12124,"password":"FfoHE4vgvx","cipher":"aes-256-gcm"}
+  - {"name":"香港AC2","type":"ss","server":"14.29.122.208","port":12124,"password":"FfoHE4vgvx","cipher":"aes-256-gcm"}
+  - {"name":"香港AC1_1","type":"ss","server":"14.29.122.210","port":12124,"password":"FfoHE4vgvx","cipher":"aes-256-gcm"}
+  - {"name":"香港AC1_2","type":"ss","server":"14.29.122.211","port":12124,"password":"FfoHE4vgvx","cipher":"aes-256-gcm"}
   - {"name":"华为iplc","type":"ss","server":"szhk-natfd5s4f.inkiwike.com","port":16001,"password":"FfoHE4vgvx","cipher":"aes-256-gcm"}
   - {"name":"水墨转发","type":"ss","server":"huawei-hk01-fd54f5.inkiwike.com","port":12429,"password":"FfoHE4vgvx","cipher":"aes-256-gcm"}
   - {"name":"ucloud_alibaba","type":"ss","server":"45.78.20.202.iprdp.net","port":13389,"password":"FfoHE4vgvx","cipher":"aes-256-gcm"}
