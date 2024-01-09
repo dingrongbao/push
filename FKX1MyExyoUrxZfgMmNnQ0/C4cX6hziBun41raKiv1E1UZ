@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2023-11-14 07:41:55
+# 创建时间：2024-01-09 19:02:30
 # 使用模版：V4.1
-# 节点数量：11
+# 节点数量：9
 # 节点类型：ss, ssr
 ####################################
 port: 7890
@@ -48,11 +48,9 @@ proxies:
   - {"name":"华为iplc","type":"ss","server":"szhk-natfd5s4f.inkiwike.com","port":16001,"password":"FfoHE4vgvx","cipher":"aes-256-gcm"}
   - {"name":"水墨转发","type":"ss","server":"huawei-hk01-fd54f5.inkiwike.com","port":12429,"password":"FfoHE4vgvx","cipher":"aes-256-gcm"}
   - {"name":"ucloud_alibaba","type":"ss","server":"45.78.20.202.iprdp.net","port":13389,"password":"FfoHE4vgvx","cipher":"aes-256-gcm"}
-  - {"name":"日本AC01","type":"ssr","server":"203.156.198.91","port":12124,"password":"iXd1t3QvFpwxGBKg","cipher":"chacha20-ietf","obfs":"plain","protocol":"origin"}
-  - {"name":"日本AC02","type":"ssr","server":"203.156.198.95","port":12124,"password":"iXd1t3QvFpwxGBKg","cipher":"chacha20-ietf","obfs":"plain","protocol":"origin"}
   - {"name":"新加坡 IEPL_ac","type":"ssr","server":"14.29.122.209","port":12124,"password":"iXd1t3QvFpwxGBKg","cipher":"chacha20-ietf","obfs":"plain","protocol":"origin"}
-  - {"name":"新加坡 IEPL_05","type":"ssr","server":"183.240.221.220","port":12124,"password":"iXd1t3QvFpwxGBKg","cipher":"chacha20-ietf","obfs":"plain","protocol":"origin"}
-  - {"name":"新加坡 IEPL_06","type":"ssr","server":"183.240.221.221","port":12124,"password":"iXd1t3QvFpwxGBKg","cipher":"chacha20-ietf","obfs":"plain","protocol":"origin"}
+  - {"name":"新加坡 IEPL_05","type":"ssr","server":"183.240.187.173","port":12124,"password":"iXd1t3QvFpwxGBKg","cipher":"chacha20-ietf","obfs":"plain","protocol":"origin"}
+  - {"name":"新加坡 IEPL_06","type":"ssr","server":"183.240.187.172","port":12124,"password":"iXd1t3QvFpwxGBKg","cipher":"chacha20-ietf","obfs":"plain","protocol":"origin"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -65,8 +63,6 @@ proxy-groups:
       - 华为iplc
       - 水墨转发
       - ucloud_alibaba
-      - 日本AC01
-      - 日本AC02
       - 新加坡 IEPL_ac
       - 新加坡 IEPL_05
       - 新加坡 IEPL_06
@@ -81,8 +77,6 @@ proxy-groups:
       - 华为iplc
       - 水墨转发
       - ucloud_alibaba
-      - 日本AC01
-      - 日本AC02
       - 新加坡 IEPL_ac
       - 新加坡 IEPL_05
       - 新加坡 IEPL_06
@@ -106,8 +100,6 @@ proxy-groups:
       - 华为iplc
       - 水墨转发
       - ucloud_alibaba
-      - 日本AC01
-      - 日本AC02
       - 新加坡 IEPL_ac
       - 新加坡 IEPL_05
       - 新加坡 IEPL_06
@@ -123,8 +115,6 @@ proxy-groups:
       - 华为iplc
       - 水墨转发
       - ucloud_alibaba
-      - 日本AC01
-      - 日本AC02
       - 新加坡 IEPL_ac
       - 新加坡 IEPL_05
       - 新加坡 IEPL_06
@@ -141,8 +131,6 @@ proxy-groups:
       - 华为iplc
       - 水墨转发
       - ucloud_alibaba
-      - 日本AC01
-      - 日本AC02
       - 新加坡 IEPL_ac
       - 新加坡 IEPL_05
       - 新加坡 IEPL_06
@@ -159,8 +147,6 @@ proxy-groups:
       - 华为iplc
       - 水墨转发
       - ucloud_alibaba
-      - 日本AC01
-      - 日本AC02
       - 新加坡 IEPL_ac
       - 新加坡 IEPL_05
       - 新加坡 IEPL_06
@@ -176,8 +162,6 @@ proxy-groups:
       - 华为iplc
       - 水墨转发
       - ucloud_alibaba
-      - 日本AC01
-      - 日本AC02
       - 新加坡 IEPL_ac
       - 新加坡 IEPL_05
       - 新加坡 IEPL_06
@@ -193,8 +177,6 @@ proxy-groups:
       - 华为iplc
       - 水墨转发
       - ucloud_alibaba
-      - 日本AC01
-      - 日本AC02
       - 新加坡 IEPL_ac
       - 新加坡 IEPL_05
       - 新加坡 IEPL_06
@@ -210,8 +192,6 @@ proxy-groups:
       - 华为iplc
       - 水墨转发
       - ucloud_alibaba
-      - 日本AC01
-      - 日本AC02
       - 新加坡 IEPL_ac
       - 新加坡 IEPL_05
       - 新加坡 IEPL_06
@@ -227,8 +207,6 @@ proxy-groups:
       - 华为iplc
       - 水墨转发
       - ucloud_alibaba
-      - 日本AC01
-      - 日本AC02
       - 新加坡 IEPL_ac
       - 新加坡 IEPL_05
       - 新加坡 IEPL_06
