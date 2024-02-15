@@ -22,8 +22,7 @@ dns:
   enhanced-mode: fake-ip
   ipv6: false
   default-nameserver:
-    - 223.5.5.5
-    - 119.29.29.29
+    - 10.11.0.5
   fake-ip-range: 198.18.0.1/16
   use-hosts: true
   nameserver:
@@ -43,6 +42,7 @@ dns:
 
 proxies:
   - {"name":"香港AC2","type":"ss","server":"hk-2.ac.laowanxiang.com","port":12124,"password":"FfoHE4vgvx","cipher":"aes-256-gcm"}
+  - {"name":"沪日iplc","type":"ss","server":"203.156.221.214","port":3389,"password":"FfoHE4vgvx","cipher":"aes-256-gcm"}
   - {"name":"香港AC1_1","type":"ss","server":"hk-1.ac.laowanxiang.com","port":12124,"password":"FfoHE4vgvx","cipher":"aes-256-gcm"}
   - {"name":"香港AC1_2","type":"ss","server":"hk-pop-1.ac.laowanxiang.com","port":12124,"password":"FfoHE4vgvx","cipher":"aes-256-gcm"}
   - {"name":"华为iplc","type":"ss","server":"szhk-natfd5s4f.inkiwike.com","port":16001,"password":"FfoHE4vgvx","cipher":"aes-256-gcm"}
@@ -58,6 +58,7 @@ proxy-groups:
       - ♻️ 自动选择
       - ♻️ 节点轮询
       - 香港AC2
+      - 沪日iplc
       - 香港AC1_1
       - 香港AC1_2
       - 华为iplc
@@ -72,6 +73,7 @@ proxy-groups:
     interval: 60
     proxies:
       - 香港AC2
+      - 沪日iplc
       - 香港AC1_1
       - 香港AC1_2
       - 华为iplc
@@ -85,21 +87,13 @@ proxy-groups:
     url: http://www.google.com/generate_204
     interval: 60
     tolerance: 100
-    proxies:
-      - 新加坡 IEPL_ac
-      - 新加坡 IEPL_05
-      - 新加坡 IEPL_06
+    proxies: []
   - name: ♻️ 节点轮询
     type: load-balance
     url: http://www.google.com/generate_204
     interval: 30
     proxies:
-      - 香港AC2
-      - 香港AC1_1
-      - 香港AC1_2
-      - 华为iplc
-      - 水墨转发
-      - ucloud_alibaba
+      - 沪日iplc
       - 新加坡 IEPL_ac
       - 新加坡 IEPL_05
       - 新加坡 IEPL_06
@@ -110,6 +104,7 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 香港AC2
+      - 沪日iplc
       - 香港AC1_1
       - 香港AC1_2
       - 华为iplc
@@ -126,6 +121,7 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 香港AC2
+      - 沪日iplc
       - 香港AC1_1
       - 香港AC1_2
       - 华为iplc
@@ -142,6 +138,7 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 香港AC2
+      - 沪日iplc
       - 香港AC1_1
       - 香港AC1_2
       - 华为iplc
@@ -157,6 +154,7 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 香港AC2
+      - 沪日iplc
       - 香港AC1_1
       - 香港AC1_2
       - 华为iplc
@@ -172,6 +170,7 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 香港AC2
+      - 沪日iplc
       - 香港AC1_1
       - 香港AC1_2
       - 华为iplc
@@ -187,6 +186,7 @@ proxy-groups:
       - ♻️ 自动选择
       - 🚀 节点选择
       - 香港AC2
+      - 沪日iplc
       - 香港AC1_1
       - 香港AC1_2
       - 华为iplc
@@ -202,6 +202,7 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 香港AC2
+      - 沪日iplc
       - 香港AC1_1
       - 香港AC1_2
       - 华为iplc
