@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2024-01-09 19:02:30
+# 创建时间：2024-02-15 16:11:47
 # 使用模版：V4.1
-# 节点数量：9
+# 节点数量：10
 # 节点类型：ss, ssr
 ####################################
 port: 7890
@@ -87,13 +87,23 @@ proxy-groups:
     url: http://www.google.com/generate_204
     interval: 60
     tolerance: 100
-    proxies: []
+    proxies:
+      - 沪日iplc
+      - 新加坡 IEPL_ac
+      - 新加坡 IEPL_05
+      - 新加坡 IEPL_06
   - name: ♻️ 节点轮询
     type: load-balance
     url: http://www.google.com/generate_204
     interval: 30
     proxies:
+      - 香港AC2
       - 沪日iplc
+      - 香港AC1_1
+      - 香港AC1_2
+      - 华为iplc
+      - 水墨转发
+      - ucloud_alibaba
       - 新加坡 IEPL_ac
       - 新加坡 IEPL_05
       - 新加坡 IEPL_06
