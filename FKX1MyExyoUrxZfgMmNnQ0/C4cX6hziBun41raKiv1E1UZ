@@ -41,13 +41,12 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"香港AC2","type":"ss","server":"hk-2.ac.laowanxiang.com","port":12124,"password":"FfoHE4vgvx","cipher":"aes-256-gcm"}
-  - {"name":"沪日iplc","type":"ss","server":"203.156.221.214","port":3389,"password":"FfoHE4vgvx","cipher":"aes-256-gcm"}
-  - {"name":"香港AC1_1","type":"ss","server":"hk-1.ac.laowanxiang.com","port":12124,"password":"FfoHE4vgvx","cipher":"aes-256-gcm"}
-  - {"name":"香港AC1_2","type":"ss","server":"hk-pop-1.ac.laowanxiang.com","port":12124,"password":"FfoHE4vgvx","cipher":"aes-256-gcm"}
+  - {"name":"香港AC2","type":"ss","server":"hk-2.ac.0tk8a3a1q4t94dler.com","port":12124,"password":"FfoHE4vgvx","cipher":"aes-256-gcm"}
+  - {"name":"香港AC1_1","type":"ss","server":"hk-1.ac.0tk8a3a1q4t94dler.com","port":12124,"password":"FfoHE4vgvx","cipher":"aes-256-gcm"}
+  - {"name":"香港AC1_2","type":"ss","server":"hk-pop-1.ac.0tk8a3a1q4t94dler.com","port":12124,"password":"FfoHE4vgvx","cipher":"aes-256-gcm"}
   - {"name":"水墨转发","type":"ss","server":"hwzf004zf.inkcdn.cc","port":12429,"password":"FfoHE4vgvx","cipher":"aes-256-gcm"}
   - {"name":"ucloud_alibaba","type":"ss","server":"45.78.20.202.iprdp.net","port":13389,"password":"FfoHE4vgvx","cipher":"aes-256-gcm"}
-  - {"name":"新加坡 IEPL_ac","type":"ssr","server":"sg-1.ac.laowanxiang.com","port":12124,"password":"iXd1t3QvFpwxGBKg","cipher":"chacha20-ietf","obfs":"plain","protocol":"origin"}
+  - {"name":"新加坡 IEPL_ac","type":"ssr","server":"sg-1.ac.0tk8a3a1q4t94dler.com","port":12124,"password":"iXd1t3QvFpwxGBKg","cipher":"chacha20-ietf","obfs":"plain","protocol":"origin"}
   - {"name":"新加坡 IEPL_05","type":"ssr","server":"183.240.187.173","port":12124,"password":"iXd1t3QvFpwxGBKg","cipher":"chacha20-ietf","obfs":"plain","protocol":"origin"}
   - {"name":"新加坡 IEPL_06","type":"ssr","server":"183.240.187.172","port":12124,"password":"iXd1t3QvFpwxGBKg","cipher":"chacha20-ietf","obfs":"plain","protocol":"origin"}
 proxy-groups:
@@ -57,7 +56,6 @@ proxy-groups:
       - ♻️ 自动选择
       - ♻️ 节点轮询
       - 香港AC2
-      - 沪日iplc
       - 香港AC1_1
       - 香港AC1_2
       - 水墨转发
@@ -71,7 +69,6 @@ proxy-groups:
     interval: 60
     proxies:
       - 香港AC2
-      - 沪日iplc
       - 香港AC1_1
       - 香港AC1_2
       - 水墨转发
@@ -85,7 +82,6 @@ proxy-groups:
     interval: 60
     tolerance: 100
     proxies:
-      - 沪日iplc
       - 新加坡 IEPL_ac
       - 新加坡 IEPL_05
       - 新加坡 IEPL_06
@@ -95,7 +91,6 @@ proxy-groups:
     interval: 30
     proxies:
       - 香港AC2
-      - 沪日iplc
       - 香港AC1_1
       - 香港AC1_2
       - 水墨转发
@@ -110,7 +105,6 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 香港AC2
-      - 沪日iplc
       - 香港AC1_1
       - 香港AC1_2
       - 水墨转发
@@ -126,7 +120,6 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 香港AC2
-      - 沪日iplc
       - 香港AC1_1
       - 香港AC1_2
       - 水墨转发
@@ -142,7 +135,6 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 香港AC2
-      - 沪日iplc
       - 香港AC1_1
       - 香港AC1_2
       - 水墨转发
@@ -157,7 +149,6 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 香港AC2
-      - 沪日iplc
       - 香港AC1_1
       - 香港AC1_2
       - 水墨转发
@@ -172,7 +163,6 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 香港AC2
-      - 沪日iplc
       - 香港AC1_1
       - 香港AC1_2
       - 水墨转发
@@ -187,7 +177,6 @@ proxy-groups:
       - ♻️ 自动选择
       - 🚀 节点选择
       - 香港AC2
-      - 沪日iplc
       - 香港AC1_1
       - 香港AC1_2
       - 水墨转发
@@ -202,7 +191,6 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 香港AC2
-      - 沪日iplc
       - 香港AC1_1
       - 香港AC1_2
       - 水墨转发
