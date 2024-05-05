@@ -44,7 +44,7 @@ proxies:
   - {"name":"香港AC2","type":"ss","server":"hk-2.ac.0tk8a3a1q4t94dler.com","port":12124,"password":"FfoHE4vgvx","cipher":"aes-256-gcm"}
   - {"name":"香港AC1_1","type":"ss","server":"hk-1.ac.0tk8a3a1q4t94dler.com","port":12124,"password":"FfoHE4vgvx","cipher":"aes-256-gcm"}
   - {"name":"香港AC1_2","type":"ss","server":"hk-pop-1.ac.0tk8a3a1q4t94dler.com","port":12124,"password":"FfoHE4vgvx","cipher":"aes-256-gcm"}
-  - {"name":"水墨转发","type":"ss","server":"hwzf-1f5ds4zf.inkcdn.cc,"port":12429,"password":"FfoHE4vgvx","cipher":"aes-256-gcm"}
+  - {"name":"水墨转发","type":"ss","server":"hwzf-1f5ds4zf.inkcdn.cc","port":12429,"password":"FfoHE4vgvx","cipher":"aes-256-gcm"}
   - {"name":"水墨电信","type":"ss","server":"telzf04-fsd65f4.inkcdn.cc","port":12430,"password":"FfoHE4vgvx","cipher":"aes-256-gcm"}
   - {"name":"ucloud_alibaba","type":"ss","server":"45.78.20.202.iprdp.net","port":13389,"password":"FfoHE4vgvx","cipher":"aes-256-gcm"}
   - {"name":"新加坡 IEPL_ac","type":"ssr","server":"sg-1.ac.0tk8a3a1q4t94dler.com","port":12124,"password":"iXd1t3QvFpwxGBKg","cipher":"chacha20-ietf","obfs":"plain","protocol":"origin"}
